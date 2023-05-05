@@ -1,0 +1,164 @@
+/* phone or baseline views */
+body{
+    background-color: white;
+    font-size: 3em;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5rem;
+    padding: 2rem;
+}
+
+main section{
+    color: rgb(7, 78, 32);
+}
+
+section{
+    margin: 0.6rem;
+    padding: 1.3rem;
+    border-radius: 1.5rem;
+}
+
+img{
+    align-items: center;
+    text-align: center;
+    border-radius: 0.75rem;
+}
+
+footer{
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(7, 78, 32);
+    color: white;
+    padding: 7px;
+    font-size: smaller;
+    text-align: center;
+}
+
+header, section, footer{
+    background-color: rgb(7, 78, 32);
+}
+
+header{
+    background-color: white;
+    text-align: center;
+    color: white;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 36pt;
+}
+
+h2{
+    font-family:'Montserrat', sans-serif;
+    color: white;
+    font-size: 25pt;
+}
+
+h3{
+    font-family: 'Poppins', serif;
+    font-size: 20pt;
+    color: white;
+
+}
+
+
+
+a{
+    font-family: 'Montserrat', serif;
+    color: white;
+    font-size: 18px;
+}
+
+a:hover{
+    color:cornflowerblue;
+}
+
+main p{
+    font-family: 'Montserrat', serif;
+    color: white;
+    font-size: 14pt;
+    padding: 1rem;
+    text-align: left;
+
+}
+
+footer p{
+    font-family: 'Montserrat', serif;
+    color: white;
+    font-size: 14pt;
+    vertical-align: center;
+   
+}
+
+.octannerimage{
+    width: 100%;
+    text-align: center;
+}
+
+.appleimage{
+    width: 100%;
+    text-align: center;
+}
+
+.targetimage{
+    width: 100%;
+    text-align: center;
+}
+
+
+/* Medium/Tablet View */
+@media only screen and (min-width: 37.5em){
+    main{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    main section{
+        grid-column: span 2;
+    }
+
+    main section:nth-child(2){
+        grid-column: span 1;
+    }
+
+    main section:nth-child(3){
+        grid-column: span 1;
+    }
+
+    main section:nth-child(4){
+        grid-column: span 2;
+    }
+}
+
+/* Large/Desktop View */
+@media only screen and (min-width: 60em){
+    
+    main{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    main section{
+        grid-column: span 3;
+        text-align: center;
+        color: rgb(112, 99, 192);
+    }
+
+    main section:nth-child(2){
+        grid-column: span 1;
+    }
+
+    main section:nth-child(3){
+        grid-column: span 1;
+    }
+
+    main section:nth-child(4){
+        grid-column: span 1;
+    }
+}
