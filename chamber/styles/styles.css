@@ -1,0 +1,77 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	text-align: center;
+	font-family: times, serif;
+	font-size: 1.5rem;
+}
+
+nav {
+	max-width: 700px;
+	margin: 10px auto;
+}
+
+/* small view navigation */
+#hamButton {
+	display: block;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: fit-content;
+	font-size: 1.5rem;
+	padding: .5rem;
+	color: navy;
+}
+.navigation {
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	background-color: #333;
+}
+.navigation li {
+	display: none;
+}
+.navigation li a {
+	padding: 1.15rem;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+}
+.navigation li a:hover {
+	background-color: #bbb;
+	color: #333;
+	font-weight: 700;
+}
+
+/* when the button is clicked - the responsive class is added and accounted for here */
+.navigation.responsive li {
+	display: block;
+	width: 100%;
+}
+.navigation.responsive li a {
+	display: block;
+}
+
+/* large view navigation */
+@media only screen and (min-width: 37.5em) {
+	h1 {
+		font-size: 2.5rem
+	}
+	
+	#hamButton {
+		display: none; /* hide hamburger button */
+	} 
+	
+	.navigation {
+		flex-direction: row;
+	}
+	
+	.navigation li {
+		display: block;
+		flex: 1 1 auto;
+	}
+}

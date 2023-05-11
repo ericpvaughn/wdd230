@@ -17,6 +17,7 @@ body, header {
 header {
     font-size: 25px;
     font-family: "Kanit", sans-serif;
+    font-weight: bold;
 }
 
 header, footer {
@@ -28,6 +29,11 @@ header, footer {
     padding: 1rem;
     background-color: #1e8856;
     font-family: "Kanit", sans-serif;
+}
+
+footer {
+    font-size: 20px;
+    font-weight: bold;
 }
 
 main {
@@ -52,7 +58,7 @@ h1 {
     font-family: "Kanit", sans-serif;
 }
 
-h3 {
+h2 {
     background-color: #1e8856;
     font-size: 30px;
     color: white;
@@ -66,7 +72,7 @@ h3 {
 }
 
 h4 {
-    background-color: #2bb673;
+    background-color: #1e8856;
     font-size: 30px;
     color: white;
     align-items: center;
@@ -114,6 +120,7 @@ nav ul {
     overflow: hidden;
     text-decoration: none;
     color: white;
+    
 }
 
 nav ul li a {
@@ -121,7 +128,8 @@ nav ul li a {
     color: white;
     text-decoration: none;
     padding: 1rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
 }
 
 #manchimg {
@@ -168,7 +176,7 @@ h5 {
 @media only screen and (min-width: 37.5em) {
     nav ul {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+        grid-template-columns: repeat(3, auto);
     }
     nav a {
         font-size: 1rem;
