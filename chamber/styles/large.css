@@ -13,7 +13,7 @@
     }
 
     header {
-        background-color: grey;
+        background-color: black;
     }
     #currentDate {
         text-align: center;
@@ -38,6 +38,7 @@
         display: block;
         align-items: left;
         flex: 1 1 auto;
+
     }
     
 
@@ -82,6 +83,7 @@
 
     footer {
         display: flex;
+        background-color: black;
 
     }
     footer .personalinfo {

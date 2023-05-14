@@ -13,6 +13,7 @@
       footer {
           display: block;
           padding: 10px;
+          background-color: black;
       }
       #main_grid {
         grid-template-columns: 60% 40%;
@@ -28,7 +29,7 @@
     }
 
     header {
-        background: grey;
+        background: black;
         width: 100%
     }
 
