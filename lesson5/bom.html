@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOM DOM</title>
+    <meta name="description" content="BOM DOM Assignment">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/bomstyles.css">
+
+</head>
+
+<body>
+
+    <h1>📖 Book of Mormon - Top 10</h1>
+<main>
+	<label for="favchap">Enter Book and Chapter: </label>
+	<input type="text" id="favchap" placeholder="Alma 5" value="Alma 5">
+	<button type="submit">Add Chapter</button>
+	<ul id="list"></ul>
+</main>
+
+<script>
+    const list = document.querySelector('ul');
+    const input = document.querySelector('input');
+    const button = document.querySelector('button');
+
+    button.addEventListener('click', () => {
+      const myItem = input.value;
+      input.value = '';
+
+      const listItem = document.createElement('li');
+      const listText = document.createElement('span');
+      const listBtn = document.createElement('button');
+
+      listItem.appendChild(listText);
+      listText.textContent = myItem;
+      listItem.appendChild(listBtn);
+      listBtn.textContent = 'X';
+
+
+      list.appendChild(listItem);
+
+      listBtn.addEventListener('click', () => {
+        list.removeChild(listItem);
+      });
+
+      input.focus();
+    });
+  </script>
+
+</body>

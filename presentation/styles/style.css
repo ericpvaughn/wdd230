@@ -1,0 +1,54 @@
+body {
+    display: block;
+
+}
+
+header {
+    align-items: center;
+    text-align: center;
+    color: grey;
+    grid-column: 1/4;
+    grid-row: 1/2;
+    background-color: black;
+    padding: 10px;
+    margin-bottom: 0;
+    max-height: 80px;
+}
+
+
+.box1, .box2, .box3 {
+    background-color: grey;
+    padding: 50px;
+    margin: 10px;
+    margin-right: 200px;
+   margin-left: 200px;
+    color: lightgrey;
+}
+
+
+main {
+    text-align: center;
+   
+}
+
+.navigation {
+    display: inline;
+    grid-row: 1/2;
+    padding: 10px;
+    margin: 10px;
+}
+
+footer {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: auto;
+    text-align: center;
+    margin: 150px;
+}
+
+h2 {
+    background-color: black;
+    color: grey;
+    padding: 20px;
+    
+}
