@@ -22,6 +22,7 @@
         width: 100%;
         margin-bottom: 10px;
         margin-top: 10px;
+        border-radius: 15px;
     }
 
     h1 {
@@ -43,6 +44,20 @@
     
 
     /* Body Stuff*/
+    .heroimg {
+        max-width: 100%;
+        max-height: 100%;
+    }
+    #chamberjoin {
+        display: block;
+        margin-right: 25px;
+        margin-top: 20px;
+    }
+    .hero h2 {
+        display: block;
+        
+    }
+
     .event {
         grid-row: 1/2;
         grid-column: 1/2;
@@ -51,9 +66,23 @@
         grid-row: 2/3;
         grid-column: 1/2;
     }
+
+    /* Join */
     .join {
         grid-row: 3/4;
         grid-column: 1/2;
+        background-color: #1e8856;
+    }
+    .joinpara {
+        font-family: "Montserrat", sans-serif;
+        margin-top: 20px;
+    }
+    .joinustitle {
+        background-color: black;
+        color: white;
+        border-radius: 10px;
+        padding: 5px;
+        margin: 0;
     }
     #main_grid .hero {
         grid-row: 1/3;
