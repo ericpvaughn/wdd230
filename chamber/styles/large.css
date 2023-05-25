@@ -5,6 +5,10 @@
         grid-template-rows: 1fr 1fr 1fr;
     }
 
+    #main_grid > div {
+        height: 200px;
+    }
+
     main {
         margin-right: 0;
     }
@@ -17,7 +21,6 @@
     }
     #currentDate {
         text-align: center;
-        background-color: #bbb;
         padding: 20px;
         width: 100%;
         margin-bottom: 10px;
@@ -50,7 +53,7 @@
     }
     #chamberjoin {
         display: block;
-        margin-right: 25px;
+        padding: 20px;
         margin-top: 20px;
     }
     .hero h2 {
