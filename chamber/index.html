@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit&family=Montserrat:wght@100&display=swap" rel="stylesheet">
-    <link href="./styles/normalize.css" rel="stylesheet">
+    <link href="styles/normalize.css" rel="stylesheet">
     <link rel="stylesheet" href="./styles/base.css">
     <link rel="stylesheet" href="./styles/medium.css">
     <link rel="stylesheet" href="./styles/large.css">
@@ -22,7 +22,7 @@
   <div id="meetingbanner">Come Join us for a Chamber Meeting Today!</div>
    <header>
     
-<img src="../lesson3/images/manch-logo.png" class="homelogo" alt="Manchester Chamber of Commerce Logo">
+<img src="./images/manch-logo.webp" class="homelogo" alt="Manchester Chamber of Commerce Logo">
 <h1>Manchester Chamber of Commerce</h1>
 
 <nav>
@@ -46,12 +46,14 @@
         <p class="moreinfo">more info...</p>
       </div>
 
+      <!-- Weather Section -->
       <div class="weather">
         <h2>Local Weather</h2>
         <img src="./images/weather.png" class="weatherimg" alt="Image of Sunshine">
-        <p class="weatherdegree">76º F</p>
+        <p> <span class="weatherdegree">40</span>º F</p>
+        <p> <span class="windspeed">20</span>mph</p>
         <hr>
-        <p class="weatherpara">Slightly Cloudy</p>
+        <p> <span class="weatherpara"></span>º F with Wind</p>
       </div>
 
       <div class="join">
@@ -59,12 +61,22 @@
         <p class="joinpara">Want to join in the fun? Find out how you can be a part of the Chamber of Commerce!</p>
       </div>
 
+      <!-- Hero Section -->
+
       <div class="hero">
         <h2>Welcome to Manchester!</h2>
-        <img src="./images/heroimg.png" class="heroimg" alt="Vermont Scenery">
+        
+        <picture id="altheroimg">
+        <source media="(min-width: 1000px)" srcset="./images/wdd230-org.jpg" class="altlargehero" alt="People sitting at a table">
+        <source media="(min-width: 800px)" srcset="./images/wdd230-orgmed.jpg" class="altmedhero">
+        <img src="./images/wdd230-orgsmall.jpg" class="althero">
+        <!--<img src="./images/heroimg.png" class="heroimg" alt="Vermont Scenery"> -->
+        </picture>
+
         <hr>
         <div id="chamberjoin">Join the Chamber</div>
       </div>
+
 
       <div class="news">
         <h2>Local News Report</h2>
@@ -107,6 +119,7 @@
     </footer>
       <script src="../chamber/scripts/hamButton.js"></script>
       <script src="../chamber/scripts/currentdate.js"></script>
+      <script src="scripts/windchill.js"></script>
       <script src ="../scripts/time_stamp.js"></script>
 </body>
 

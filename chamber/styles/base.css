@@ -145,13 +145,19 @@ header, footer {
     height: auto;
 
   }
-  .heroimg {
+  /*.heroimg {
     /*display: inline;*/
     /*max-width: 200px;
-    max-height: 100%;*/
+    max-height: 100%;
     width: 100%;
     border-radius: 10px;
   }
+  */
+  .althero {
+    max-width: 100%;
+    max-height: 100;
+  }
+
   #chamberjoin {
     text-align: center;
     padding: 10px;
