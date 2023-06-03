@@ -29,6 +29,7 @@
     const button = document.querySelector('button');
 
     button.addEventListener('click', () => {
+      if(input.value !== "") {
       const myItem = input.value;
       input.value = '';
 
@@ -50,8 +51,7 @@
 
       input.focus();
 
-      if (!input.value) {
-        return;
+    
       }
     });
   </script>
