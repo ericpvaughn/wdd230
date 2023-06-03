@@ -40,6 +40,11 @@ p {
 
 }
 
+h1 a {
+    text-decoration: none;
+    color: white;
+}
+
 /* Demo Box */
 .demobox {
     background-color: #1e8856;
