@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manchester Chamber of Commerce Discover Page</title>
+    <meta name="description" content="Homepage for Manchester Chamber of Commerce where you will find the right info!">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Montserrat&display=swap" rel="stylesheet">
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/dbase.css">
+    <link rel="stylesheet" href="./styles/dmedium.css">
+    <link rel="stylesheet" href="./styles/dlarge.css">
+    <!-- Fav Icon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+<header>
+    <h1>Manchester Discover</h1>
+    <nav>
+        <button id="hamButton">&#9776;</button>
+        <ul class="navigation">
+            <li><a href="./discover/discover.html" title="Discover">Discover</a></li>
+            <li><a href="#" title="Directory">Directory</a></li>
+            <li><a href="#" title="Join">Join</a></li>
+            <li><a href="#" title="Contact">Contact</a></li>
+        </ul>
+    </nav>
+    <p2>Days Since Last Visit: <span id="visit"></span></p2>
+</header>
+
+<main>
+<div id="main_grid">
+    
+    <div class="demobox">
+        <h2>Here are some Stats</h2>
+        <p>Population: 786 (2023 World Population Review) <br><br>Demographics: 97.08% White, 2.92% Other<br><br>Nearby Ski Resorts: 25<br><br>Home of Burr & Burton Academy<br><br>Original Site of the ITVFest</p>
+    </div>
+
+    <div class="box1">
+        <img src="images/placeholder.png" data-src="images/box1img.png" class="vtimage" alt="scenery">
+        <p>Manchester, Vermont is often used as the staple for Autumn postcards and maple syrup distribution in the US.<br><br> Who knew such a small town has such an impact?</p>
+    </div>
+
+    <div class="box2">
+        <img src="images/placeholder.png" data-src="images/box2img.png" class="vtimage" alt="scenery">
+        <p>As a historic town, Manchester holds buildings that date back to the Revolutionary War! <br><br>Here is the Bennington Courthouse, built in 1822.</p>
+    </div>
+
+    <div class="box3">
+        <img src="images/placeholder.png" data-src="images/box3img.png" class="vtimage" alt="scenery">
+        <p>Marsh Tavern is the original meetingplace for the Green Mountain Boys, who were key to taking back Fort Ticonderoga.<br><br>Now you can relax and drink some fine food and spirits where they sat.</p>
+    </div>
+
+    <div class="box4">
+        <img src="images/placeholder.png" data-src="images/box4img.png" class="vtimage" alt="scenery">
+        <p>Manchester is known best for the various, high-quality ski resorts nearby. Take advantage of this postercard town during the Winter when the snow is everywhere!</p>
+    </div>
+
+    <div class="box5">
+        <img src="images/placeholder.png" data-src="images/box5img.png" class="vtimage" alt="scenery">
+        <p>One of Manchester's main attractions is the Northshire Bookstore, a place for food, books, and little souvenirs. Many come here just to lounge for the afternoon.</p>
+    </div>
+
+</div>
+</main>
+
+<footer>
+    <img src="../lesson3/images/manch-logo.png" class="homelogo" alt="Manchester Chamber of Commerce Logo">
+        <h2>Manchester Chamber<br> of Commerce</h2>
+        <div id="footerinfo">info@manchestercommerce.org<br>(123) 456-789<br>Location on Map</div>
+        <p class="personalinfo"> &copy; <span id="year"></span> - Eric Vaughn - WDD@230 Chamber of Commerce Project</p>
+        <p> Last Updated: <span id="lastUpdate"></span></p>
+</footer>
+
+
+    <script src="./scripts/localstorage.js"></script>
+    <script src="scripts/hamButton.js"></script>
+    <script src="scripts/lazyloaddisc.js"></script>
+    <script src="scripts/time_stamp.js"></script>
+</body>
+
+</html>

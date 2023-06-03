@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.homelogo {
+    max-width: 100px;
+    padding: 10px;
+}
+
+/* Blur Loading Animation */
+img {
+    filter: blur(0.0em);
+    transition: filter 0.5s;
+    width: 300px;
+}
+
+img[data-src] {
+    filter: blur(0.5em);
+}
+
+img:hover {
+    transform: scale(1.02);
+}
+
+img {
+    border-radius: 8px;
+}
+
+p {
+    background-color: #1e8856;
+    padding: 20px;
+    color: white;
+    margin: 30px;
+    margin-top: 0;
+    max-width: 1000px;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+/* Demo Box */
+.demobox {
+    background-color: #1e8856;
+    padding: 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+.demobox h2 {
+    font-family: "Kanit", sans-serif;
+}
+.demobox p {
+    text-align: left;
+    margin-top: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+header {
+    background-color: black;
+    border-radius: 0px 0px 15px 15px;
+    color: white;
+    padding: 20px;
+    font-family: "Kanit", sans-serif;
+    margin-bottom: 50px;
+}
+
+footer {
+   display: block;
+   margin-top: 50px;
+   padding-top: 30px;
+   padding-bottom: 50px;
+   background-color: black;
+   color: white;
+   font-family: "Kanit", sans-serif;
+}
+
+#lastupdate {
+    color: white;
+}
+
+body {
+   display: block;
+   align-items: center;
+   text-align: center; 
+}
+
+#main_grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(auto,auto);
+    gap: 20px;
+}
+
+#hamButton {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: fit-content;
+    font-size: 1.8rem;
+    padding: .5rem;
+    color: #333;
+    border: none;
+}
+
+/* Navigation Section */
+.navigation {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    background-color: #333;
+}
+.navigation li {
+    display: none;
+}
+.navigation li a {
+    padding: 1.15rem;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+.navigation li a:hover {
+    background-color: #bbb;
+    color: #333;
+    font-weight: 700;
+}
