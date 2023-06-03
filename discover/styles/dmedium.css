@@ -4,9 +4,12 @@
         padding: 0;
       }
 
-      #hambutton {
-        display: none;
-      }
+        #hambutton {
+            display: none;
+        }
+        .daysince {
+            margin: 10px;
+        }
 
 
         #main_grid {
