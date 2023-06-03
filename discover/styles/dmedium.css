@@ -29,20 +29,18 @@
             height: 200px;
         }
 
-        .navigation {
-            display: flex;
-            flex-direction: row;
-            background-color: transparent;
-        }
-        .navigation li {
-            display: block;
-            align-items: left;
-            flex: 1 1 auto;
-        }
+   
         footer  {
             display: flex;
             flex-direction: row;
           }
+
+        footer .homelogo {
+            width: 500px;
+        }
+        img:hover {
+            transform: scale(1.02);
+        }
         
     }
     

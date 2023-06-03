@@ -20,16 +20,14 @@ img[data-src] {
     filter: blur(0.5em);
 }
 
-img:hover {
-    transform: scale(1.02);
-}
+
 
 img {
     border-radius: 8px;
 }
 
 p {
-    background-color: #1e8856;
+    background-color: #000000;
     padding: 20px;
     color: white;
     margin: 30px;
@@ -37,6 +35,7 @@ p {
     max-width: 1000px;
     border-radius: 8px;
     font-family: "Montserrat", sans-serif;
+    font-size: 16px;
 
 }
 
@@ -110,16 +109,18 @@ body {
     border: none;
 }
 
+.navigation.responsive {
+    display: flex;
+}
+
 /* Navigation Section */
 .navigation {
-    display: flex;
+    display: none;
     flex-direction: column;
     list-style: none;
     background-color: #333;
 }
-.navigation li {
-    display: none;
-}
+
 .navigation li a {
     padding: 1.15rem;
     display: block;
