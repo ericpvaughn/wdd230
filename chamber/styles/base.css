@@ -10,15 +10,15 @@
 
 h1 {
     text-align: center;
-    font-family: 'Kanit', sans-serif;
+    font-family: 'Geologica', sans-serif;
     font-size: 1.5rem;
     color: white;
     
 }
 
 header {
-    background-color: black;
-    border-radius: 15px;
+    background-color: #1b3b19;
+    border-radius: 0px 0px 15px 15px;
 }
 
 h2 {
@@ -41,9 +41,9 @@ p2 {
 
 
 #currentDate {
-    background-color: black;
+    background-color: #1b3b19;
     color: white;
-    font-family: "Kanit", sans-serif;
+    font-family: "Geologica", sans-serif;
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 10px;
@@ -54,7 +54,7 @@ p2 {
 nav {
     max-width: 700px;
     margin: 10px auto;
-    font-family: "Kanit", sans-serif;
+    font-family: "Geologica", sans-serif;
     font-weight: bold;
     font-size: 1rem;
 }
@@ -79,24 +79,29 @@ body {
     border: none;
 }
 .navigation {
-    display: flex;
+    display: none;
     flex-direction: column;
     list-style: none;
     background-color: #333;
 }
-.navigation li {
-    display: none;
+
+/* Nav */
+
+.navigation.responsive {
+  display: flex;
 }
+
 .navigation li a {
     padding: 1.15rem;
     display: block;
     text-align: center;
     text-decoration: none;
     color: #fff;
+    background-color: #1b3b19;
 }
 .navigation li a:hover {
     background-color: #bbb;
-    color: #333;
+    color: #1b3b19;
     font-weight: 700;
 }
 header, footer {
@@ -112,12 +117,12 @@ header, footer {
     gap: 20px;
 }
 #main_grid > div {
-    background-color: #1e8856;
+    background-color: #4A7856;
     border-radius: 15px;
     height: auto;
     width: 100%;
     padding: 20px;
-    font-family: 'Kanit', sans-serif;
+    font-family: 'Geologica', sans-serif;
 }
 .topnav a {
     float: none;
@@ -127,12 +132,12 @@ header, footer {
 
   footer {
       display: block;
-      background-color: black;
+      background-color: #1b3b19;
       margin-top: 20px;
       margin-bottom: 20px;
       padding: 10px;
       color: white;
-      font-family: 'Kanit', sans-serif;
+      font-family: 'Geologica', sans-serif;
       border-radius: 15px;
       height: 100%;
 
@@ -216,7 +221,7 @@ header, footer {
     /* Join Section */
   .join {
     display: none;
-    background-color: 1e8856;
+    background-color: #4A7856;
   }
   
 
@@ -260,7 +265,9 @@ header, footer {
 
     #meetingbanner {
         padding: 20px;
-        background-color: #1e8856;
-        font-family: "Kanit", sans-serif;
+        background-color: #4A7856;
+        font-family: "Geologica", sans-serif;
         display: none;
+        color: white;
+        border-radius: 15px 15px 0px 0px;
     }

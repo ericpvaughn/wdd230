@@ -27,7 +27,7 @@ img {
 }
 
 p {
-    background-color: #000000;
+    background-color: #4A7856;
     padding: 20px;
     color: white;
     margin: 30px;
@@ -44,15 +44,17 @@ h1 a {
     color: white;
 }
 
+
+
 /* Demo Box */
 .demobox {
-    background-color: #1e8856;
+    background-color: #4A7856;
     padding: 20px;
     color: white;
-    margin-bottom: 20px;
 }
 .demobox h2 {
-    font-family: "Kanit", sans-serif;
+    font-family: "Geologica", sans-serif;
+    margin: 10px;
 }
 .demobox p {
     text-align: left;
@@ -62,11 +64,11 @@ h1 a {
 
 
 header {
-    background-color: black;
+    background-color: #1b3b19;
     border-radius: 0px 0px 15px 15px;
     color: white;
     padding: 20px;
-    font-family: "Kanit", sans-serif;
+    font-family: "Geologica", sans-serif;
     margin-bottom: 50px;
 }
 
@@ -75,13 +77,14 @@ footer {
    margin-top: 50px;
    padding-top: 30px;
    padding-bottom: 50px;
-   background-color: black;
+   background-color: #1b3b19;
    color: white;
-   font-family: "Kanit", sans-serif;
+   font-family: "Geologica", sans-serif;
 }
 
 #lastupdate {
     color: white;
+    margin-top: 20px;
 }
 
 body {
@@ -118,7 +121,7 @@ body {
     display: none;
     flex-direction: column;
     list-style: none;
-    background-color: #333;
+    background-color: #1b3b19;
 }
 
 .navigation li a {
@@ -130,6 +133,6 @@ body {
 }
 .navigation li a:hover {
     background-color: #bbb;
-    color: #333;
+    color: #1b3b19;
     font-weight: 700;
 }
