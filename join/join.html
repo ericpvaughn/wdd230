@@ -40,6 +40,8 @@
             
         <form action="thankyou.html" method="post">
 
+            <input type="hidden" id="hiddentime">
+
             <label>First Name*<br>
                 <input type="text" name="First Name" required placeholder="John">
             </label>
@@ -52,8 +54,8 @@
                 name="Business Position Title" 
                 minlength="7" 
                 placeholder="Business Owner"
-                pattern=""
-                >
+                pattern="^[a-zA-Z][a-zA-Z -]{6,}$"
+                required>
             </label>
 
             <label>Email Address*<br>
@@ -61,13 +63,13 @@
             </label>
 
             <label>Phone Number*<br>
-                (<input
+                <input
                 name="tel1"
                 type="tel"
                 pattern="[0-9]{3}"
-                placeholder="123"
+                placeholder="(123)"
                 aria-label="3-digit area code"
-                size="3">) •
+                size="3"> •
                 <input
                 name="tel2"
                 type="tel"
@@ -158,7 +160,7 @@
 
 
             <label>Business Description<br>
-                <input type="text" name="business description" placeholder="Briefly tell us about your business" size="50">
+                <textarea name="business_description" placeholder="Briefly tell us about your business" rows="4" cols="50"></textarea>
             </label>
 
             <!--Submit Button-->
@@ -180,6 +182,7 @@
             <script src="scripts/hamButton.js"></script>
             <script src="scripts/lazyloaddisc.js"></script>
             <script src="scripts/time_stamp.js"></script>
+            <script src="scripts/join.js"></script>
     </body>
 
 </html>

@@ -151,3 +151,18 @@ form > label, div {
     display: none;
 }
 
+input:required:valid {
+    border: 2px green solid;
+}
+input:required:invalid {
+    border: 2px red solid;
+    border-radius: 2px;
+}
+
+textarea {
+    resize: none;
+}
+
+input, textarea {
+    padding: 5px;
+}
