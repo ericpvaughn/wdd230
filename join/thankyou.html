@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Thank You!</title>
+        <meta name="description" content="Thank you for submitting your application to the Manchester Chamber of Commerce">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@600&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+        <link href="styles/normalize.css" rel="stylesheet">
+        <link rel="stylesheet" href="styles/joinbase.css">
+        <link rel="stylesheet" href="styles/joinmed.css">
+        <link rel="stylesheet" href="styles/joinlarge.css">
+        <!-- <link rel="javascript" href="js/TimeStamp.js"> -->
+        <!-- Favicon -->
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+    </head>
+
+    <body>
+        <header>
+            <h1><a href="https://ericpvaughn.github.io/wdd230/chamber/index.html" title="Manchesterhomepage">Manchester Discover</a></h1>
+            <nav>
+                <button id="hamButton">&#9776;</button>
+                <ul class="navigation">
+                    <li><a href="./discover/discover.html" title="Discover">Discover</a></li>
+                    <li><a href="#" title="Directory">Directory</a></li>
+                    <li><a href="#" title="Join">Join</a></li>
+                    <li><a href="#" title="Contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="daysince">Days Since Last Visit: <span id="visit"></span></div>
+        </header>
+        
+        <main>
+            <h1 id="thankyou">Thank you for your Application!</h1>
+        </main>
+
+
+        <footer>
+            <img src="../lesson3/images/manch-logo.png" class="homelogo" alt="Manchester Chamber of Commerce Logo">
+                <h2>Manchester Chamber<br> of Commerce</h2>
+                <div id="footerinfo">info@manchestercommerce.org<br>(123) 456-789<br>Location on Map</div>
+                <p class="personalinfo"> &copy; <span id="year"></span> - Eric Vaughn - WDD@230 Chamber of Commerce Project</p>
+                <p> Last Updated: <span id="lastUpdate"></span></p>
+        </footer>
+        
+        
+            <script src="./scripts/localstorage.js"></script>
+            <script src="scripts/hamButton.js"></script>
+            <script src="scripts/lazyloaddisc.js"></script>
+            <script src="scripts/time_stamp.js"></script>
+    </body>
+
+
+
+</html>

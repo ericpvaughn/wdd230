@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Eric Vaughn</title>
+        <meta name="description" content="Assignment portal for Eric Vaughn, for the WDD230: Web Frontend 
+        Development 1 at Brigham Young University - Idaho">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@600&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+        <link href="styles/normalize.css" rel="stylesheet">
+        <link rel="stylesheet" href="styles/joinbase.css">
+        <link rel="stylesheet" href="styles/joinmed.css">
+        <link rel="stylesheet" href="styles/joinlarge.css">
+        <!-- <link rel="javascript" href="js/TimeStamp.js"> -->
+        <!-- Favicon -->
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+    </head>
+
+    <body>
+        <header>
+            <h1><a href="https://ericpvaughn.github.io/wdd230/chamber/index.html" title="Manchesterhomepage">Manchester Discover</a></h1>
+            <nav>
+                <button id="hamButton">&#9776;</button>
+                <ul class="navigation">
+                    <li><a href="./discover/discover.html" title="Discover">Discover</a></li>
+                    <li><a href="#" title="Directory">Directory</a></li>
+                    <li><a href="#" title="Join">Join</a></li>
+                    <li><a href="#" title="Contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="daysince">Days Since Last Visit: <span id="visit"></span></div>
+        </header>
+
+        <h1 id="appheader">Fill out the Application Below</h1>
+            <p class="required">*Required field</p>
+        <main>
+            
+        <form action="thankyou.html" method="sumbit">
+
+            <label>First Name*<br>
+                <input type="text" name="First Name" required placeholder="John">
+            </label>
+            <label>Last Name*<br>
+                <input type="text" name="Last Name" required placeholder="Doe">
+            </label>
+
+            <label>Business Position Title<br>
+                <input type="text" 
+                name="Business Position Title" 
+                minlength="7" 
+                placeholder="Business Owner"
+                pattern=""
+                >
+            </label>
+
+            <label>Email Address*<br>
+                <input type="email" name="Email Address" placeholder="johndoe@gmail.com" required>
+            </label>
+
+            <label>Phone Number*<br>
+                (<input
+                name="tel1"
+                type="tel"
+                pattern="[0-9]{3}"
+                placeholder="123"
+                aria-label="3-digit area code"
+                size="3" />) •
+                <input
+                name="tel2"
+                type="tel"
+                pattern="[0-9]{3}"
+                placeholder="456"
+                aria-label="3-digit area code"
+                size="3" /> •
+                <input
+                name="tel3"
+                type="tel"
+                pattern="[0-9]{3}"
+                placeholder="7890"
+                aria-label="3-digit area code"
+                size="4" />   
+            </label>
+
+            <label>Business Title*<br>
+                <input type="text" name="Business Title" required placeholder="John Doe's Food n Stuffs" size="50">
+            </label>
+
+            <!--Membership Level Box-->
+            <fieldset>
+                <legend>Membership Level:</legend>
+                <div id="memberbox">
+                    <label for="leve1">
+                    <input type="radio" id="level1" name="level" value="NP Membership">
+                    NP Membership</label>
+
+                    <label for="level2">
+                    <input type="radio" id="level2" name="level" value="Bronze Membership">
+                    Bronze Membership</label>
+
+                    <label for="leve3">
+                    <input type="radio" id="level3" name="level" value="Silver Membership">
+                    Silver Membership</label>
+
+                    <label for="leve4">
+                    <input type="radio" id="level4" name="level" value="Gold Membership">
+                    Gold Membership</label>
+                </div>
+            </fieldset>
+
+            <!--Membership Benefit Box-->
+            <div id="benebox">
+                <div class="block">
+                <h2>Non-Profit</h2>
+                <p>• Free of Cost
+                    <br>• Basic Trainings
+                    <br>• 1 Spotlight
+                </p>
+                </div>
+
+                <div class="block">
+                    <h2>Bronze</h2>
+                    <p>• $10/month
+                    <br>• Basic Trainings
+                    <br>• 3 Spotlights
+                    <br>• 2 Advertisement
+                    <br>• Event Discounts
+
+                    </p>
+                    </div>
+                
+                <div class="block">
+                    <h2>Silver</h2>
+                    <p>• $20/month
+                        <br>• Advanced Trainings
+                        <br>• 5 Spotlights
+                        <br>• 5 Advertisements
+                        <br>• Event Discounts
+                        <br>• Event Parking
+                    </p>
+                    </div>
+
+                <div class="block">
+                    <h2>Gold</h2>
+                    <p>• $30/month
+                        <br>• Expert Trainings
+                        <br>• 10 Spotlights
+                        <br>• 10 Advertisements
+                        <br>• Event Discounts
+                        <br>• Event Parking
+                        <br>• VIP Event Access
+
+                    </p>
+                    </div>
+            </div>
+
+
+            <label>Business Description<br>
+                <input type="text" name="business description" placeholder="Briefly tell us about your business" size="50">
+            </label>
+
+            <!--Submit Button-->
+            <input type="submit" value="Submit Application" id="submitbutton">
+        </form>
+        </main>
+
+
+        <footer>
+            <img src="../lesson3/images/manch-logo.png" class="homelogo" alt="Manchester Chamber of Commerce Logo">
+                <h2>Manchester Chamber<br> of Commerce</h2>
+                <div id="footerinfo">info@manchestercommerce.org<br>(123) 456-789<br>Location on Map</div>
+                <p class="personalinfo"> &copy; <span id="year"></span> - Eric Vaughn - WDD@230 Chamber of Commerce Project</p>
+                <p> Last Updated: <span id="lastUpdate"></span></p>
+        </footer>
+        
+        
+            <script src="./scripts/localstorage.js"></script>
+            <script src="scripts/hamButton.js"></script>
+            <script src="scripts/lazyloaddisc.js"></script>
+            <script src="scripts/time_stamp.js"></script>
+    </body>
+
+</html>
