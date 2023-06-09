@@ -35,30 +35,7 @@
     text-align: center;
 }
 
-#hamButton {
-    display: none;
-}
-.navigation {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 50px;
-    list-style: none;
-    background-color: #1b3b19;
-}
 
-.navigation li a {
-    padding: 1.15rem;
-    display: block;
-    text-align: center;
-    text-decoration: none;
-    color: #fff;
-}
-.navigation li a:hover {
-    background-color: #bbb;
-    color: #333;
-    font-weight: 700;
-}
 
 
 
