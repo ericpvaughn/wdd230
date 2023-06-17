@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manchester Chamber of Commerce Directory Page</title>
+    <meta name="description" content="Directory page that shows 6 local businesses and their contact information!">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@600&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="stylesheet" href="./styles/medium.css">
+    <link rel="stylesheet" href="./styles/large.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+
+<body>
+<header>
+    <img src="./images/manch-logo.png" class="homelogo" alt="Manchester Chamber of Commerce Logo">
+<h1>Manchester Chamber of Commerce</h1>
+
+<nav>
+	<button id="hamButton">&#9776;</button>
+	<ul class="navigation">
+		<li><a href="discover/discover.html" title="Discover">Discover</a></li>
+		<li><a href="#" title="Directory">Directory</a></li>
+		<li><a href="join/join.html" title="Join">Join</a></li>
+		<li><a href="#" title="Contact">Contact</a></li>
+	</ul>
+</nav>
+
+</header>
+
+<main>
+  <div id="cardContainer"></div>
+
+</main>
+
+  <footer>
+    <img src="../lesson3/images/manch-logo.png" class="homelogo" alt="Manchester Chamber of Commerce Logo">
+        <h2>Manchester Chamber<br> of Commerce</h2>
+        <div id="footerinfo">info@manchestercommerce.org<br>(123) 456-789<br>Location on Map</div>
+        <p class="personalinfo"> &copy; <span id="year"></span> - Eric Vaughn - WDD@230 Chamber of Commerce Project</p>
+        <p> Last Updated: <span id="lastUpdate"></span></p>
+  </footer>
+  <script src="scripts/discoveryv2.js"></script>
+  <script src ="scripts/time_stamp.js"></script>
+  <script src="scripts/hamButton.js"></script>
+</body>
+</html>

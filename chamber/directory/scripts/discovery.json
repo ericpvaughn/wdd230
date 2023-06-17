@@ -1,0 +1,69 @@
+{
+    "cards": [
+      {
+        "image": "https://example.com/image1.jpg",
+        "title": "Hildene, The Lincoln Family Home",
+        "address": "1005 Hildene Rd, Manchester, VT",
+        "phone": "(802) 362-1788",
+        "website": "https://hildene.org"
+      },
+      {
+        "image": "https://example.com/image2.jpg",
+        "title": "Burr & Burton Academy",
+        "address": "57 Seminary Ave, Manchester, VT",
+        "phone": "(802) 362-1775",
+        "website": "https://www.burrburton.org"
+      },
+      {
+        "image": "https://example.com/image3.jpg",
+        "title": "Northshire Bookstore",
+        "address": "4869 Main St, Manchester Center, VT",
+        "phone": "(802) 362-2200",
+        "website": "https://www.northshire.com"
+      },
+      {
+        "image": "https://example.com/image4.jpg",
+        "title": "Equinox Golf Resort & Spa",
+        "address": "3567 Main St, Manchester, VT",
+        "phone": "(802) 362-4700",
+        "website": "https://equinoxresort.com/?utm_source=google&utm_medium=Yext"
+      },
+      {
+        "image": "https://example.com/image5.jpg",
+        "title": "Up For Breakfast",
+        "address": "4935 Main St, Manchester Center, VT",
+        "phone": "(802) 362-4204",
+        "website": "https://www.facebook.com/UpForBreakfast/"
+      },
+      {
+        "image": "https://example.com/image6.jpg",
+        "title": "Depot 62",
+        "address": "515 Depot St, Manchester Center, VT",
+        "phone": "(802) 366-8229",
+        "website": "http://www.depot62.com/"
+      },
+      {
+        "image": "https://example.com/image6.jpg",
+        "title": "Ye Olde Tavern",
+        "address": "5183 Main St, Manchester Center, VT",
+        "phone": "(802) 362-0611",
+        "website": "http://yeoldetavern.net/"
+      },
+      {
+        "image": "https://example.com/image6.jpg",
+        "title": "Kimpton Taconic Hotel",
+        "address": "3835 Main St, Manchester, VT",
+        "phone": "(802) 362-0147",
+        "website": "https://www.taconichotel.com/?&utm_source=Google%20My%20Business&utm_medium=organic&utm_campaign=GMB&utm_term=taconic"
+      },
+      {
+        "image": "https://example.com/image6.jpg",
+        "title": "Manchester Center Post Office",
+        "address": "3452 Richville Rd, Manchester, VT",
+        "phone": "(802) 362-3070",
+        "website": "https://tools.usps.com/find-location.htm?location=1371605"
+      }
+      
+    ]
+  }
+  
