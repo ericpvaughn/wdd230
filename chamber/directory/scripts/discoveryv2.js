@@ -1,5 +1,7 @@
 // Fetch the JSON data
-fetch('discovery.json')
+const url = "https://github.com/ericpvaughn/wdd230/blob/main/chamber/directory/scripts/discovery.json"
+
+fetch(url)
   .then(response => response.json())
   .then(data => {
     // Get the card container element
