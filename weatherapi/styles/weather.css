@@ -1,0 +1,58 @@
+* {
+    margin: 0 auto;
+    text-align: center;
+}
+
+body {
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+
+header {
+    font-size: 20pt;
+    margin-top: 50px;
+    background-color: #4A7856;
+    max-width: 1000px;
+    padding: 30px;
+    color: white;
+    font-family: "Geologica";
+    border-radius: 15px 15px 0px 0px;
+}
+
+main {
+    margin-top: 50px;
+
+}
+
+p {
+    font-family: "Montserrat";
+    font-size: 20pt;
+}
+
+#weather-icon {
+    width: 100px;
+    margin: 20px;
+    margin-bottom: 0px;
+}
+
+#current-temp {
+    color: #4A7856;
+}
+
+figcaption {
+    font-family: "Montserrat";
+    font-size: 20pt;
+    color: teal;
+}
+
+footer {
+    font-size: 15pt;
+    margin-top: 50px;
+    background-color: #4A7856;
+    max-width: 1000px;
+    padding: 30px;
+    color: white;
+    font-family: "Geologica";
+    border-radius: 0px 0px 15px 15px;
+}
