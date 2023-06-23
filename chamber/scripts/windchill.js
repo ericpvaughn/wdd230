@@ -3,7 +3,7 @@ let windchillfield = document.querySelector(".weatherpara");
 
 let currenttemp = document.querySelector("#current-temp").textContent;
 console.log(currenttemp)
-let currentwind = document.querySelector(".windspeed").textContent;
+let currentwind = document.querySelector("#windSpeed").textContent;
 
 currenttemp = parseInt(currenttemp)
 currentwind = parseInt(currentwind)
