@@ -50,11 +50,14 @@
       <!-- Weather Section -->
       <div class="weather">
         <h2>Local Weather</h2>
-        <img src="./images/weather.png" class="weatherimg" alt="Image of Sunshine">
-        <p> <span class="weatherdegree">40</span>º F</p>
-        <p> <span class="windspeed">20</span>mph</p>
+        <figure>
+        <img id="weather-icon">
+        <figcaption></figcaption>
+        <p> <span id="current-temp"></span>º F</p>
+        <p> <span id="windSpeed"></span>mph</p>
         <hr>
         <p> <span class="weatherpara"></span>º F with Wind</p>
+        </figure>
       </div>
 
       <div class="join">
@@ -88,21 +91,21 @@
       <div class="spotlights">
         <div class="s1">
           <h3>Upcoming Events</h3>
-          <img src="./images/upcomingimg.png" class="upcomingimg" alt="Image of Calendar">
+          <img src="images/upcomingimg.png" class="upcomingimg" alt="Image of Calendar">
           
           <!--<p2>See Calendar</p2>-->
         </div>
 
         <div class="s2">
           <h3>Recent Election</h3>
-          <img src="./images/election.png" class="electionimg" alt="Recent Election">
+          <img src="images/election.png" class="electionimg" alt="Recent Election">
           
           <!--<p2>See Results</p2> -->
         </div>
 
         <div class="s3">
           <h3>Food Favorites</h3>
-          <img src="./images/food.png" class="foodimg" alt="Local Pub">
+          <img src="images/food.png" class="foodimg" alt="Local Pub">
           
           <!--<p2>Food!</p2>-->
         </div>
@@ -116,10 +119,11 @@
         <p class="personalinfo"> &copy; <span id="year"></span> - Eric Vaughn - WDD@230 Chamber of Commerce Project</p>
         <p> Last Updated: <span id="lastUpdate"></span></p>
     </footer>
-      <script src="./scripts/hamButton.js"></script>
-      <script src="../chamber/scripts/currentdate.js"></script>
+      <script src="scripts/hamButton.js"></script>
+      <script src="scripts/currentdate.js"></script>
       <script src="scripts/windchill.js"></script>
-      <script src ="../scripts/time_stamp.js"></script>
+      <script src ="scripts/time_stamp.js"></script>
+      <script src="scripts/weatherapi.js"></script>
 </body>
 
 
