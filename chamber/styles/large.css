@@ -12,10 +12,11 @@
     main {
         margin-right: 0;
     }
+
+    /* Header CSS*/
     #hamButton {
         display: none;
     }
-
     header {
         background-color: #1b3b19;
     }
@@ -27,13 +28,8 @@
         margin-top: 10px;
         border-radius: 15px;
     }
-
-    h1 {
-        color: white;
-    }
-
-    /* Nav Stuff*/
-    .navigation {
+      /* Nav Stuff*/
+      .navigation {
         display: flex;
         flex-direction: row;
         background-color: transparent;
@@ -44,8 +40,12 @@
         flex: 1 1 auto;
 
     }
-    
 
+    h1 {
+        color: white;
+    }
+
+    
     /* Body Stuff*/
     /*.heroimg {
         max-width: 100%;
@@ -124,6 +124,10 @@
         display: flex;
         background-color: #1b3b19;
 
+    }
+
+    footer > div {
+        margin: 20px;
     }
     footer .personalinfo {
         display: block;

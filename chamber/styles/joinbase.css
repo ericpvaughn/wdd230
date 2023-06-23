@@ -20,6 +20,11 @@ header {
     align-items: center;
     text-align: center;
 }
+header, footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 h1 a {
     text-decoration: none;

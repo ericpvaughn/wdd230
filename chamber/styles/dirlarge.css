@@ -13,5 +13,18 @@
   .card img {
     max-width: 300px;
   }
+
+      /* Nav Stuff*/
+      .navigation {
+        display: flex;
+        flex-direction: row;
+        background-color: transparent;
+    }
+    .navigation li {
+        display: block;
+        align-items: left;
+        flex: 1 1 auto;
+
+    }
   
 }

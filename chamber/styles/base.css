@@ -34,9 +34,7 @@ p {
     color: white;
 }
 
-p2 {
-    color: white;
-}
+
 
 
 
@@ -96,6 +94,7 @@ body {
     text-align: center;
     text-decoration: none;
     color: #fff;
+    font-family: "Montserrat";
     background-color: #1b3b19;
 }
 .navigation li a:hover {
