@@ -74,6 +74,7 @@ body {
     padding: .5rem;
     color: #333;
     border: none;
+    border-radius: 5px;
 }
 .navigation {
     display: none;
@@ -166,6 +167,7 @@ header, footer {
     padding: 10px;
     background-color: white;
     border-radius: 10px;
+    margin-top: 10px;
   }
 
   .hero hr {

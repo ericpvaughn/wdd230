@@ -100,4 +100,8 @@
         flex-direction: row;
       }
 
+      #chamberjoin {
+        margin-top: 10px;
+      }
+
 }
