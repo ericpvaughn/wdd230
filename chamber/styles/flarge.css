@@ -59,7 +59,6 @@
     #home_grid {
         grid-template-columns: 1fr 2fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
-        margin-right: 0;
     }
     #home_grid > div {
         height: 200px;
@@ -71,7 +70,6 @@
     #chamberjoin {
         display: block;
         padding: 10px;
-        margin-top: 5px;
     }
     .hero h2 {
         display: block;

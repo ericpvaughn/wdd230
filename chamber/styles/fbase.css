@@ -59,6 +59,13 @@ footer {
     border-radius: 15px;
   }
 
+  .daysince {
+    background-color: #1b3b19;
+    color: white;
+    border-radius: 30px;
+    font-family: "Montserrat", sans-serif;
+  }
+
   #lastupdate {
     color: white;
     margin-top: 20px;
@@ -76,6 +83,11 @@ h2 {
 
 h3 {
     color: white;
+}
+
+p {
+  color: white;
+  font-family: "Montserrat", sans-serif;
 }
 
   /* Nav */
@@ -133,9 +145,7 @@ h3 {
     max-width: 1000px;
     margin: 0 auto;
 }
-#home_grid {
-    margin-right: 20px;
-}
+
 
 #home_grid, #disc_grid {
     display: grid;
@@ -150,6 +160,7 @@ h3 {
     width: 100%;
     padding: 20px;
     font-family: 'Geologica', sans-serif;
+    box-shadow: 1px 1px 3px #1b3b19;
 }
 
 /*Hero Section*/
@@ -171,7 +182,11 @@ h3 {
     padding: 10px;
     background-color: white;
     border-radius: 10px;
-    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+  }
+  #chamberjoin:hover {
+    color: grey;
   }
 
   .hero hr {
@@ -203,8 +218,10 @@ h3 {
   }
 
   #weather-icon {
-    max-width: 70px;
-    max-height: 70px;
+    max-width: 50px;
+    max-height: 50px;
+    background-color: white;
+    border-radius: 30px;
   }
 
   /* News Section */
@@ -292,7 +309,7 @@ h3 {
 img {
     filter: blur(0.0em);
     transition: filter 0.5s;
-    width: 300px;
+    /* width: 300px; */
 }
 img[data-src] {
     filter: blur(0.5em);
@@ -300,6 +317,7 @@ img[data-src] {
 img {
     border-radius: 8px;
 }
+
 
 #disc_grid p {
     background-color: #4A7856;
@@ -311,6 +329,7 @@ img {
     border-radius: 8px;
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
+    box-shadow: 1px 1px 3px #1b3b19;
 }
 
 /* Demographic Box */
@@ -318,10 +337,12 @@ img {
     background-color: #4A7856;
     padding: 20px;
     color: white;
+    max-height: 425px;
 }
 .demobox h2 {
     font-family: "Geologica", sans-serif;
     margin: 10px;
+    font-size: 1.2em;
 }
 .demobox p {
     text-align: left;
@@ -348,7 +369,11 @@ img {
     margin: 20px;
     margin-top: 100px;
     margin-bottom: 100px;
+    background-color: #4A7856;
+    padding: 30px;
+    border-radius: 15px;
 }
+
 
 #join_grid {
     display: flex;
@@ -364,6 +389,7 @@ img {
     padding: 20px;
     background-color: #4A7856;
     color: white;
+    border-radius: 15px;
 }
 
 .required {
@@ -372,6 +398,7 @@ img {
     background-color: #4A7856;
     color: white;
     margin-bottom: 30px;
+    border-radius: 15px;
 }
 
 form {

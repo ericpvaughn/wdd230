@@ -19,35 +19,34 @@
     </head>
 
     <body>
-        <header>
-            <h1><a href="https://ericpvaughn.github.io/wdd230/chamber/index.html" title="Manchesterhomepage">Manchester Discover</a></h1>
-            <nav>
-                <button id="hamButton">&#9776;</button>
-                <ul class="navigation">
-                    <li><a href="./discover/discover.html" title="Discover">Discover</a></li>
-                    <li><a href="#" title="Directory">Directory</a></li>
-                    <li><a href="#" title="Join">Join</a></li>
-                    <li><a href="#" title="Contact">Contact</a></li>
-                </ul>
-            </nav>
-            <div class="daysince">Days Since Last Visit: <span id="visit"></span></div>
-        </header>
+          <!--Header Section-->   
+<header>    
+<img src="images/manch-logo.webp" class="homelogo" alt="Manchester Chamber of Commerce Logo">
+<h1>Manchester Chamber of Commerce</h1>
+<nav>
+	<button id="hamButton">&#9776;</button>
+	<ul class="navigation">
+    <li><a href="index.html" title="Home">Home</a></li>
+		<li><a href="discover.html" title="Discover">Discover</a></li>
+		<li><a href="directory.html" title="Directory">Directory</a></li>
+		<li><a href="join.html" title="Join">Join</a></li>
+		<li><a href="#" title="Contact">Contact</a></li>
+	</ul>
+</nav>
+</header>
         
         <main>
             <h1 id="thankyou">Thank you for your Application!</h1>
         </main>
 
 
-        <footer>
-            <img src="../lesson3/images/manch-logo.png" class="homelogo" alt="Manchester Chamber of Commerce Logo">
-                <h2>Manchester Chamber<br> of Commerce</h2>
-                <div id="footerinfo">info@manchestercommerce.org<br>(123) 456-789<br>Location on Map</div>
-                <p class="personalinfo"> &copy; <span id="year"></span> - Eric Vaughn - WDD@230 Chamber of Commerce Project</p>
-                <p> Last Updated: <span id="lastUpdate"></span></p>
+        <footer> 
+            <div id="footerinfo">info@manchestercommerce.org<br>(123) 456-789<br>Location on Map</div>
+            <p class="personalinfo"> &copy; <span id="year"></span> - Eric Vaughn - WDD@230 Chamber of Commerce Project</p>
+            <p> Last Updated: <span id="lastUpdate"></span></p>
         </footer>
         
-        
-            <script src="./scripts/localstorage.js"></script>
+    
             <script src="scripts/hamButton.js"></script>
             <script src="scripts/lazyloaddisc.js"></script>
             <script src="scripts/time_stamp.js"></script>
