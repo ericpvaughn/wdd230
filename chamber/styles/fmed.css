@@ -115,7 +115,20 @@
 
     /* DIRECTORY PAGE */
 
-
+    #cardContainer {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 20px;
+      justify-items: center;
+    }
+    
+    .card {
+      text-align: center;
+    }
+    
+    .card img {
+      max-width: 300px;
+    }
 
     /* END OF DIRECTORY */
 

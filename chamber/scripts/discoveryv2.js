@@ -52,7 +52,7 @@ fetch(url)
   // Card/List Views //
   const gridbutton = document.querySelector("#gridbutton");
   const listbutton = document.querySelector("#listbutton");
-  const display = document.querySelector("#business-container");
+  const display = document.querySelector("#cardContainer");
   
   listbutton.addEventListener("click", () => {
     display.classList.remove('cards')

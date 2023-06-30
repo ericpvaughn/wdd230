@@ -1,5 +1,5 @@
-//const url = 'http://localhost:8000/JSON/data.json';
-const url = 'https://jd4440.github.io/wdd230/chamber/JSON/data.json';
+
+const url = 'https://ericpvaughn.github.io/wdd230/chamber/scripts/discovery.json';
 
 async function getBusinessData() {
   const response = await fetch(url);
@@ -8,9 +8,9 @@ async function getBusinessData() {
   displayDirectory(data.directory);
 }
 
-const gridbutton = document.querySelector("#grid");
-const listbutton = document.querySelector("#list");
-const display = document.querySelector("#business-container");
+const gridbutton = document.querySelector("#gridbutton");
+const listbutton = document.querySelector("#listbutton");
+const display = document.querySelector("#cardContainer");
 
 
 
@@ -33,7 +33,7 @@ gridbutton.addEventListener("click", () => {
     const cards = document.querySelector('div.cards'); // select the output container element
 
   
-    directory.forEach((business) => {
+    directory.forEach((cards) => {
       // Create elements to add to the div.cards element
       let card = document.createElement('section');
       let logo = document.createElement('img');

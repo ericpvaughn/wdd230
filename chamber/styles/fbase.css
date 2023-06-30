@@ -366,6 +366,25 @@ img[data-src] {
 
 /* DIRECTORY PAGE */
 
+#cardContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+
+.card {
+  text-align: center;
+}
+
+.card img {
+  max-width: 300px;
+}
+
+.list {
+  display: block;
+  width: 100%;
+  gap: 20px;
+}
 
 
 /* END OF DIRECTORY */
