@@ -30,12 +30,12 @@
                     <li><a href="discover.html" title="Discover">Discover</a></li>
                     <li><a href="directory.html" title="Directory">Directory</a></li>
                     <li><a href="join.html" title="Join">Join</a></li>
-                    <li><a href="#" title="Contact">Contact</a></li>
+                    <li><a href="contact.html" title="Contact">Contact</a></li>
                 </ul>
             </nav>
             </header>
             
-
+            <p id="currentDate"></p>
 
       
         <h1 id="appheader">Fill out the Chamber Application Below</h1>
@@ -73,7 +73,7 @@
                 pattern="[0-9]{3}"
                 placeholder="(123)"
                 aria-label="3-digit area code"
-                size="3"> •
+                size="4"> •
                 <input
                 name="tel2"
                 type="tel"
@@ -91,7 +91,7 @@
             </label>
 
             <label>Business Title*<br>
-                <input type="text" name="Business Title" required placeholder="John Doe's Food n Stuffs" size="50">
+                <input type="text" name="Business Title" required placeholder="John Doe's Food n Stuffs" id="businessinput">
             </label>
 
             <!--Membership Level Box-->
@@ -164,7 +164,7 @@
 
 
             <label>Business Description<br>
-                <textarea name="business_description" placeholder="Briefly tell us about your business" rows="4" cols="50"></textarea>
+                <textarea name="business_description" placeholder="Briefly tell us about your business" rows="4"></textarea>
             </label>
 
             <!--Submit Button-->
@@ -181,7 +181,7 @@
                 <p> Last Updated: <span id="lastUpdate"></span></p>
         </footer>
         
-        
+            <script src="scripts/currentdate.js"></script>
             <script src="scripts/hamButton.js"></script>
             <script src="scripts/lazyloaddisc.js"></script>
             <script src="scripts/time_stamp.js"></script>

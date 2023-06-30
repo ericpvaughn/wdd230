@@ -70,6 +70,8 @@
     #chamberjoin {
         display: block;
         padding: 10px;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
     .hero h2 {
         display: block;

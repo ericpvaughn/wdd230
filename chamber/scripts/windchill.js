@@ -1,5 +1,5 @@
 
-let windchillfield = document.querySelector(".weatherpara");
+let windchillfield = document.querySelector("#windChill");
 
 let currenttemp = document.querySelector("#current-temp").textContent;
 console.log(currenttemp)

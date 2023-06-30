@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manchester Chamber of Commerce</title>
+    <meta name="description" content="Homepage for Manchester Chamber of Commerce where you will find the right info!">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@600&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/fbase.css">
+    <link rel="stylesheet" href="styles/fmed.css">
+    <link rel="stylesheet" href="styles/flarge.css">
+    <!-- Fav Icon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+
+<body>
+  <div id="meetingbanner">Come Join us for a Chamber Meeting Today!</div>
+
+  <!--Header Section-->   
+<header>    
+<img src="images/manch-logo.webp" class="homelogo" alt="Manchester Chamber of Commerce Logo">
+<h1>Manchester Chamber of Commerce</h1>
+<nav>
+	<button id="hamButton">&#9776;</button>
+	<ul class="navigation">
+    <li><a href="index.html" title="Home">Home</a></li>
+		<li><a href="discover.html" title="Discover">Discover</a></li>
+		<li><a href="directory.html" title="Directory">Directory</a></li>
+		<li><a href="join.html" title="Join">Join</a></li>
+		<li><a href="contact.html" title="Contact">Contact</a></li>
+	</ul>
+</nav>
+</header>
+
+
+<p id="currentDate"></p>
+
+            <p class="required">*Required field</p>
+<main id="contact_grid">
+
+  <form action="thankyou.html" method="post">
+
+    <label>First Name*<br>
+      <input type="text" name="First Name" required placeholder="John">
+  </label>
+  <label>Last Name*<br>
+      <input type="text" name="Last Name" required placeholder="Doe">
+  </label>
+
+  <label>Email Address*<br>
+    <input type="email" name="Email Address" placeholder="johndoe@gmail.com" required>
+</label>
+
+<label>Phone Number<br>
+  <input
+  name="tel1"
+  type="tel"
+  pattern="[0-9]{3}"
+  placeholder="(123)"
+  aria-label="3-digit area code"
+  size="4"> •
+  <input
+  name="tel2"
+  type="tel"
+  pattern="[0-9]{3}"
+  placeholder="456"
+  aria-label="3-digit area code"
+  size="3"> •
+  <input
+  name="tel3"
+  type="tel"
+  pattern="[0-9]{4}"
+  placeholder="7890"
+  aria-label="3-digit area code"
+  size="4">   
+</label>
+
+<label>Message<br>
+  <textarea name="contact_message" placeholder="What would you like to contact us about?" rows="4"></textarea>
+</label>
+
+<!--Submit Button-->
+<input type="submit" value="Send Message" id="submitbutton">
+</form>
+
+</main>
+
+<footer> 
+    <div id="footerinfo">info@manchestercommerce.org<br>(123) 456-789<br>Location on Map</div>
+    <p class="personalinfo"> &copy; <span id="year"></span> - Eric Vaughn - WDD@230 Chamber of Commerce Project</p>
+    <p> Last Updated: <span id="lastUpdate"></span></p>
+</footer>
+  <script src="scripts/hamButton.js"></script>
+  <script src="scripts/currentdate.js"></script>
+  <script src="scripts/windchill.js"></script>
+  <script src ="scripts/time_stamp.js"></script>
+  <script src="scripts/weatherapi.js"></script>
+  <script src="scripts/localstorage.js"></script>
+</body>
+
+
+</html>

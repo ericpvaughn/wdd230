@@ -1,5 +1,5 @@
 // Fetch the JSON data
-const url = "https://github.com/ericpvaughn/wdd230/blob/main/chamber/directory/scripts/discovery.json"
+const url = "https://ericpvaughn.github.io/wdd230/chamber/scripts/discovery.json"
 
 fetch(url)
   .then(response => response.json())
@@ -48,3 +48,18 @@ fetch(url)
   .catch(error => {
     console.log('Error:', error);
   });
+
+  // Card/List Views //
+  const gridbutton = document.querySelector("#gridbutton");
+  const listbutton = document.querySelector("#listbutton");
+  const display = document.querySelector("#business-container");
+  
+  listbutton.addEventListener("click", () => {
+    display.classList.remove('cards')
+    display.classList.add("list");
+  })
+  
+  gridbutton.addEventListener("click", () => {
+    display.classList.remove("list");
+    display.classList.add('cards')
+  })
