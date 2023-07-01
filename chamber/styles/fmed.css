@@ -24,7 +24,7 @@
 
     #home_grid {
         grid-template-columns: 60% 40%;
-        grid-template-rows: repeat(auto, auto);
+        grid-template-rows: repeat(auto);
         margin: 20px;
       }
 
@@ -41,19 +41,28 @@
           grid-row: 2/3;
           grid-column: 1/3;
         }
-        .spotlights {
+        .sec-spotlight {
           display: flex;
           grid-row: 3/4;
           grid-column: 1/3;
           flex-direction: row;
+          width: 100%;
           
         }
         .sec-spotlight div {
           height: 100%;
-          width: 100%!important;
+          width: 100%;
           background-color: #4A7856;
-          grid-row: 1/5;
         }
+        .sec-spotlight div:nth-child(3) {
+          display: block;
+        }
+        .sec-spotlight div img {
+          width: 300px;
+          height: 200px;
+        }
+        
+
         .join {
           grid-row: 4/5;
           grid-column: 1/3;
@@ -82,6 +91,7 @@
   
         #chamberjoin {
           margin-top: 10px;
+          display: block;
         }
 
     /* END OF HOME */
