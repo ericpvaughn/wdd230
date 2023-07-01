@@ -355,6 +355,10 @@ img[data-src] {
     box-shadow: 1px 1px 3px #1b3b19;
 }
 
+#disc_grid .demobox p {
+  box-shadow: none;
+}
+
 /* Demographic Box */
 .demobox {
     background-color: #4A7856;
