@@ -40,6 +40,7 @@ gridbutton.addEventListener("click", () => {
       let title = document.createElement('h2');
       let address= document.createElement('h3');
       let phone = document.createElement('h3');
+      let membership = document.createElement('h3');
       let website = document.createElement('h3');
     
 
@@ -48,6 +49,7 @@ gridbutton.addEventListener("click", () => {
       title.textContent = `${business.title}`;
       address.textContent = `${business.address}`;
       phone.textContent = `${business.phone}`;
+      membership.textContent = `${business.membership}`;
       website.textContent = `${business.website}`;
       
 
@@ -64,6 +66,7 @@ gridbutton.addEventListener("click", () => {
       card.appendChild(title);
       card.appendChild(address);
       card.appendChild(phone);
+      card.appendChild(membership);
       card.appendChild(website);
   
       cards.appendChild(card);

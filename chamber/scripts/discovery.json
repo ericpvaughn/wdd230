@@ -5,6 +5,7 @@
         "title": "Hildene, The Lincoln Family Home",
         "address": "1005 Hildene Rd, Manchester, VT",
         "phone": "(802) 362-1788",
+        "membership": "Gold Member",
         "website": "https://hildene.org"
       },
       {
@@ -12,6 +13,7 @@
         "title": "Burr & Burton Academy",
         "address": "57 Seminary Ave, Manchester, VT",
         "phone": "(802) 362-1775",
+        "membership": "Gold Member",
         "website": "https://www.burrburton.org"
       },
       {
@@ -19,6 +21,7 @@
         "title": "Northshire Bookstore",
         "address": "4869 Main St, Manchester Center, VT",
         "phone": "(802) 362-2200",
+        "membership": "Bronze Member",
         "website": "https://www.northshire.com"
       },
       {
@@ -26,6 +29,7 @@
         "title": "Equinox Golf Resort & Spa",
         "address": "3567 Main St, Manchester, VT",
         "phone": "(802) 362-4700",
+        "membership": "Silver Member",
         "website": "https://equinoxresort.com"
       },
       {
@@ -33,6 +37,7 @@
         "title": "Up For Breakfast",
         "address": "4935 Main St, Manchester Center, VT",
         "phone": "(802) 362-4204",
+        "membership": "Non-Profit Member",
         "website": "https://www.facebook.com/UpForBreakfast/"
       },
       {
@@ -40,6 +45,7 @@
         "title": "Depot 62",
         "address": "515 Depot St, Manchester Center, VT",
         "phone": "(802) 366-8229",
+        "membership": "Non-Profit Member",
         "website": "http://www.depot62.com/"
       },
       {
@@ -47,6 +53,7 @@
         "title": "Ye Olde Tavern",
         "address": "5183 Main St, Manchester Center, VT",
         "phone": "(802) 362-0611",
+        "membership": "Silver Member",
         "website": "http://yeoldetavern.net/"
       },
       {
@@ -61,6 +68,7 @@
         "title": "Manchester Center Post Office",
         "address": "3452 Richville Rd, Manchester, VT",
         "phone": "(802) 362-3070",
+        "membership": "Silver Member",
         "website": "https://tools.usps.com/find-location.htm?location=1371605"
       }
       
