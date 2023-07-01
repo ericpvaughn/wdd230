@@ -48,9 +48,11 @@
           flex-direction: row;
           
         }
-        .spotlights div {
+        .sec-spotlight div {
           height: 100%;
-          width: 50%;
+          width: 100%!important;
+          background-color: #4A7856;
+          grid-row: 1/5;
         }
         .join {
           grid-row: 4/5;

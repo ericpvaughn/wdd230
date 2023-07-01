@@ -111,19 +111,24 @@
         grid-row: 3/4;
         grid-column: 2/3;
     }
-    #home_grid .spotlights {
+    #home_grid .sec-spotlight {
         grid-row: 1/4;
         grid-column: 3/4;
         height: 640px;
         flex-direction: column;
+        margin-bottom: 0px;
     }
-    .spotlights .s3 {
-        display: block;
+
+    #home_grid .sec-spotlight h3{
+        font-size: 0.7em;
     }
-    .spotlights div {
-        width: 100%;
-        height: 33%;
+    #home_grid .sec-spotlight h4{
+        font-size: 0.7em;
+        font-family: "Montserrat";
+        color: white;
+        margin: 0px;
     }
+
 
     /* END OF HOME */
 

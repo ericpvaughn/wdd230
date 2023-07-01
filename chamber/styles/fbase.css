@@ -271,35 +271,32 @@ figure > div {
   
 
     /* Spotlights Section */
-  .spotlights {
-    display: block;
+  .sec-spotlight {
+    display: flex;
+    flex-direction: column;
+    max-height: 100%;
   }
 
-  .spotlights div {
-    border: 2px solid white;
+  .sec-spotlight div {
     border-radius: 10px;
-    height: 50%;
     gap: 10px;
     margin: 5px;
-    margin-bottom: 0px;
-    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-top: 20px;
   }
 
-  .upcomingimg {
+  .sec-spotlight div img {
     max-height: 100%;
     max-width: 100%;
+    border-radius: 15px;
+    border: 5px solid white;
     margin: 0;
   }
 
-  .electionimg {
-    max-width: 100%;
-    max-height: 100%;
+  .sec-spotlight div h3 {
+    font-size: 0.9em;
   }
 
-  .foodimg {
-    max-width: 100%;
-    max-height: 100%;
-  }
 
   
     .spotlights .s3 {
