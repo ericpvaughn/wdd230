@@ -163,6 +163,7 @@ figure > div {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(auto);
     gap: 20px;
+    margin: 15px;
 }
 #home_grid > div {
     background-color: #4A7856;
