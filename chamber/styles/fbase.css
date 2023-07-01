@@ -242,6 +242,10 @@ figure > div {
     border-radius: 30px;
   }
 
+  #figcaption {
+    color: white;
+  }
+
   /* News Section */
   .news {
     grid-row: 4/5;

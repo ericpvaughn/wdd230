@@ -1,7 +1,7 @@
 // select HTML elements in the document
 const currentTemp = document.querySelector('#current-temp');
 const weatherIcon = document.querySelector('#weather-icon');
-const captionDesc = document.querySelector('figcaption');
+const captionDesc = document.querySelector('#figcaption');
 const windSpeed = document.querySelector('#windSpeed');
 
 // lat: 42.878, lon: -73.197
