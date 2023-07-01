@@ -115,20 +115,15 @@
 
     /* DIRECTORY PAGE */
 
-    #cardContainer {
+    /* #cardContainer {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       grid-gap: 20px;
       justify-items: center;
-    }
-    
-    .card {
-      text-align: center;
-    }
-    
-    .card img {
-      max-width: 300px;
-    }
+    } */
+    .directory h2 {
+      min-width: 360px;
+      }
 
     /* END OF DIRECTORY */
 

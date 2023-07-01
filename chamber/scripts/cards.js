@@ -33,40 +33,37 @@ gridbutton.addEventListener("click", () => {
     const cards = document.querySelector('div.cards'); // select the output container element
 
   
-    directory.forEach((cards) => {
+    directory.forEach((business) => {
       // Create elements to add to the div.cards element
       let card = document.createElement('section');
       let logo = document.createElement('img');
-      let name = document.createElement('h2');
+      let title = document.createElement('h2');
       let address= document.createElement('h3');
       let phone = document.createElement('h3');
-      let membership = document.createElement('h3');
       let website = document.createElement('h3');
     
 
   
  
-      name.textContent = `${business.name}`;
+      title.textContent = `${business.title}`;
       address.textContent = `${business.address}`;
       phone.textContent = `${business.phone}`;
-      membership.textContent = `${business.membership}`;
       website.textContent = `${business.website}`;
       
 
   
 
         logo.setAttribute('src', business.imageurl);
-        logo.setAttribute('alt', `logo of ${business.name}`);
+        logo.setAttribute('alt', `logo of ${business.title}`);
         logo.setAttribute('loading', 'lazy');
         logo.setAttribute('width', '340');
         logo.setAttribute('height', '440');
 
         
       card.appendChild(logo);
-      card.appendChild(name);
+      card.appendChild(title);
       card.appendChild(address);
       card.appendChild(phone);
-      card.appendChild(membership);
       card.appendChild(website);
   
       cards.appendChild(card);
