@@ -1,63 +1,63 @@
 {
     "directory": [
       {
-        "image": "https://example.com/image1.jpg",
+        "image": "https://ericpvaughn.github.io/wdd230/chamber/images/hildeneimg.webp",
         "title": "Hildene, The Lincoln Family Home",
         "address": "1005 Hildene Rd, Manchester, VT",
         "phone": "(802) 362-1788",
         "website": "https://hildene.org"
       },
       {
-        "image": "https://example.com/image2.jpg",
+        "image": "https://ericpvaughn.github.io/wdd230/chamber/images/burrimg.jpeg",
         "title": "Burr & Burton Academy",
         "address": "57 Seminary Ave, Manchester, VT",
         "phone": "(802) 362-1775",
         "website": "https://www.burrburton.org"
       },
       {
-        "image": "https://example.com/image3.jpg",
+        "image": "https://ericpvaughn.github.io/wdd230/chamber/images/northshireimg.jpeg",
         "title": "Northshire Bookstore",
         "address": "4869 Main St, Manchester Center, VT",
         "phone": "(802) 362-2200",
         "website": "https://www.northshire.com"
       },
       {
-        "image": "https://example.com/image4.jpg",
+        "image": "https://ericpvaughn.github.io/wdd230/chamber/images/equinoximg.jpeg",
         "title": "Equinox Golf Resort & Spa",
         "address": "3567 Main St, Manchester, VT",
         "phone": "(802) 362-4700",
         "website": "https://equinoxresort.com"
       },
       {
-        "image": "https://example.com/image5.jpg",
+        "image": "https://ericpvaughn.github.io/wdd230/chamber/images/upforimg.jpeg",
         "title": "Up For Breakfast",
         "address": "4935 Main St, Manchester Center, VT",
         "phone": "(802) 362-4204",
         "website": "https://www.facebook.com/UpForBreakfast/"
       },
       {
-        "image": "https://example.com/image6.jpg",
+        "image": "https://ericpvaughn.github.io/wdd230/chamber/images/depotimg.png",
         "title": "Depot 62",
         "address": "515 Depot St, Manchester Center, VT",
         "phone": "(802) 366-8229",
         "website": "http://www.depot62.com/"
       },
       {
-        "image": "https://example.com/image6.jpg",
+        "image": "https://ericpvaughn.github.io/wdd230/chamber/images/oldeimg.jpeg",
         "title": "Ye Olde Tavern",
         "address": "5183 Main St, Manchester Center, VT",
         "phone": "(802) 362-0611",
         "website": "http://yeoldetavern.net/"
       },
       {
-        "image": "https://example.com/image6.jpg",
+        "image": "https://ericpvaughn.github.io/wdd230/chamber/images/taconicimg.jpeg",
         "title": "Kimpton Taconic Hotel",
         "address": "3835 Main St, Manchester, VT",
         "phone": "(802) 362-0147",
         "website": "https://www.taconichotel.com/"
       },
       {
-        "image": "https://example.com/image6.jpg",
+        "image": "https://ericpvaughn.github.io/wdd230/chamber/images/postimg.jpeg",
         "title": "Manchester Center Post Office",
         "address": "3452 Richville Rd, Manchester, VT",
         "phone": "(802) 362-3070",
