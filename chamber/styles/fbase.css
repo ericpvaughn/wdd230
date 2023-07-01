@@ -384,6 +384,7 @@ background-color: #4A7856;
 color: white;
 font-family: "Geologica", sans-serif;
 border-radius: 15px;
+margin: 10px;
 }
 
 div.cards {
@@ -397,6 +398,14 @@ gap: 20px;
   background-color: #4A7856;
   border-radius: 15px;
   padding: 20px;
+  box-shadow: 2px 2px 5px #1b3b19;
+}
+
+.directory img {
+  width: 200px;
+  height: 200px;
+  border-radius: 15px;
+  border: 5px solid white;
 }
 
 .directory h2 {
@@ -415,6 +424,7 @@ row-gap: 20px;
 column-gap: 20px;
 background-color: #1b3b19;
 border-radius: 15px;
+margin: 20px;
 }
 
 div.list section {

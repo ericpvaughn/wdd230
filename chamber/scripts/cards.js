@@ -53,7 +53,7 @@ gridbutton.addEventListener("click", () => {
 
   
 
-        logo.setAttribute('src', business.imageurl);
+        logo.setAttribute('src', business.image);
         logo.setAttribute('alt', `logo of ${business.title}`);
         logo.setAttribute('loading', 'lazy');
         logo.setAttribute('width', '340');
