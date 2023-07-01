@@ -66,6 +66,7 @@ footer {
     color: white;
     border-radius: 30px;
     font-family: "Montserrat", sans-serif;
+    padding: 10px;
   }
 
   #lastupdate {
@@ -87,9 +88,14 @@ h3 {
     color: white;
 }
 
-p {
+p, .weatherp {
   color: white;
   font-family: "Montserrat", sans-serif;
+}
+figure > div {
+    color: white;
+  font-family: "Montserrat", sans-serif;
+  margin: 0px;
 }
 
   /* Nav */
@@ -487,7 +493,7 @@ form {
     max-width: 800px
 }
 
-form > label, div {
+form > label, #benebox {
     padding: 10px;
 }
 
