@@ -165,11 +165,20 @@
       
       div.cards {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: 300px 300px 300px;
         grid-template-rows: repeat(3, 1fr);
+        justify-content: center;
         padding: 10px;
         gap: 20px;
         width: 100%;
+        }
+
+        div.cards h2 {
+            font-size: 1.2em;
+        }
+        div.cards h3 {
+            font-size: 0.8em;
+            text-align: center;
         }
 
     /* END OF DIRECTORY */
