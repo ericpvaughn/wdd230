@@ -154,6 +154,7 @@
         grid-template-columns: 1fr 1fr 1fr 1fr;
         width: 100%;
         text-align: center;
+        gap: 10px;
     }
     #benebox > div > h2 {
         background-color: #4A7856;
