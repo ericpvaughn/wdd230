@@ -121,9 +121,15 @@
       grid-gap: 20px;
       justify-items: center;
     } */
-    .directory h2 {
-      min-width: 360px;
+  
+    div.cards {
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      padding: 10px;
+      gap: 20px;
       }
+    
+
 
     /* END OF DIRECTORY */
 

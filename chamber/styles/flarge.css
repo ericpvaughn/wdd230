@@ -162,14 +162,15 @@
 
     /* DIRECTORY PAGE */
 
-    /* #cardContainer {
+      
+      div.cards {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-gap: 20px;
-        justify-items: center;
-      } */
-      
-
+        grid-template-rows: repeat(3, 1fr);
+        padding: 10px;
+        gap: 20px;
+        width: 100%;
+        }
 
     /* END OF DIRECTORY */
 
