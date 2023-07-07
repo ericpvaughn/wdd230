@@ -105,7 +105,7 @@
     }
     #disc_grid {
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(auto,auto);
+        grid-template-rows: repeat(auto);
     }
     .demobox {
         border-radius: 8px;
