@@ -51,6 +51,14 @@ footer{
 	color: white;
 }
 
+#title {
+    color: white;
+    font-family: "Kanit";
+    background-color: rgb(7, 78, 32);
+    text-align: center;
+    border-radius: 15px;
+}
+
 h2 {
     padding-left: 1rem;
 }
@@ -64,7 +72,18 @@ ul {
     line-height: 1.5;
     border-top: 1px solid rgb(178, 177, 177);
     border-bottom: 1px solid rgb(178, 177, 177);
+    list-style: none;
+}
 
+ul a {
+    text-decoration: none;
+    margin: 10px;
+    transition: 0.2s;
+}
+
+
+ul a:hover {
+    border-bottom: 1px solid black;
 }
 
 h2 {color: white;}
