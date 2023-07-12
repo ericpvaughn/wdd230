@@ -27,7 +27,62 @@
     </nav>
 </header>
 
+<main id="fresh_grid">
 
+    <div class="mix-form">
+        
+
+        <form>
+            <h2>Make your own Drink with delicious organic fruits!</h2>
+            <label for="firstName">First Name</label><br>
+            <input type="text" id="firstName" name='user_name' required><br><br>
+    
+            <label for="eMail">
+                E-mail <br>
+                <input type="email" name="user_email" id="eMail" placeholder="example@mail.com" required><br>
+            </label><br><br>
+    
+            <label for="phoneNumber">
+                Phone Number <br>
+                <input type="tel" name="phone" id="phoneNumber" required><br>
+            </label><br><br>
+
+            <div class="form-grid">
+                <div class="selection">
+                    <h3>Select 3 fruits</h3>
+                    <div class="fruit1">
+                        <label id="fruit1" for="fruit1"></label>
+                        <input type="checkbox" name="fruit1">
+                    </div>
+                   
+                    <div class="fruit2">
+                        <label id="fruit2" for="fruit2"></label>
+                        <input type="checkbox" name="fruit2">
+                    </div>
+                   
+                    <div class="fruit3">
+                        <label id="fruit3" for="fruit3"></label>
+                        <input type="checkbox" name="fruit3">
+                    </div>
+                    
+                </div>
+                
+                <div class="submission-area">
+                    <textarea name="instructions" id="instruct" cols="30" rows="5">Special instructions...</textarea><br>
+    
+                <button type="submit" id="submit-mix">Submit Your Drink!</button>
+                </div>
+            </div>
+
+            
+            
+        </form>
+       
+
+    </div>
+    <div class="feedback"></div>
+
+</main>
 
 
 <footer>
@@ -48,7 +103,7 @@
 </footer>
 <!--SCRIPTS-->
     <script src="scripts/time_stamp.js"></script>
-
+    <script src="scripts/fruits.js"></script>
 </body>
 
 </html>

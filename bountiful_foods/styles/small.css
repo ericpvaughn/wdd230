@@ -12,12 +12,39 @@ body {
 p {
     font-family: "Poppins";
     color: white;
+    margin: 25px;
+    padding-bottom: 20px;
+    font-size: 1.2em;
+}
+
+/* Weather */
+.weatherbody {
+    color: #2d3047!important;
+    margin: 0;
+}
+#w-description {
+    font-family: "Poppins";
+}
+#weather-icon {
+    width: 75px;
+    margin-top: 15px;
+}
+.weatherbody {
+    margin-bottom: 20px;
+}
+
+.foretitle {
+    font-size: 1em;
 }
 
 hr {
     margin-right: 20px;
     margin-left: 20px;
     color: white;
+}
+
+h2 {
+    font-family: "Fredoka";
 }
 
 #title {
@@ -49,6 +76,7 @@ hr {
     padding-bottom: 20px;
     transition: 0.2s;
 }
+
 
 #home_grid {
     display: block;
@@ -90,6 +118,10 @@ hr {
 #calltoaction {
     background-color: #1b998b;
 }
+#drink-icon {
+    width: 300px;
+    margin: 0;
+}
 
 #makedrinkcard {
     border: 10px solid white;
@@ -114,6 +146,21 @@ hr {
     grid-column: 3/5;
     background-color: #ed217c;
     border: 10px solid white;
+}
+
+
+/* FRESH PAGE */
+
+#fresh_grid {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #1b998b;
+    color: white;
+    padding: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    border-radius: 30px;
 }
 
 footer {
