@@ -1,4 +1,4 @@
-const url = 'https://api.openweathermap.org/data/2.5/weather?lat=42.878&lon=-73.197&units=imperial&appid=93c38752305ca77c6133640779c32982';
+const url = 'https://api.openweathermap.org/data/2.5/weather?lat=33.15818&lon=117.3506&units=imperial&appid=93c38752305ca77c6133640779c32982';
 
 const currentTemp = document.querySelector('#temp');
 const cHumidity = document.querySelector('#humidity');
@@ -65,7 +65,8 @@ const displayResults = (weatherData)=>{
 
 };
 
-const url2 = 'https://api.openweathermap.org/data/2.5/weather?lat=42.878&lon=-73.197&units=imperial&appid=93c38752305ca77c6133640779c32982';
+
+const url2 = 'https://api.openweathermap.org/data/2.5/forecast?lat=33.15818&lon=117.3506&units=imperial&appid=93c38752305ca77c6133640779c32982';
 
 const foreTemp1 = document.querySelector('#fore-temp1');
 const foreDesc1 = document.querySelector('#fore-description1');

@@ -21,9 +21,18 @@ const requestFruits = async(fruitsUrl)=>{
 };
 
 const displayFruits = (fruitList) =>{
-    fruit1.innerHTML = fruitList[3].name;
-    fruit2.innerHTML = fruitList[7].name
-    fruit3.innerHTML = fruitList[35].name;
+    // fruit1.innerHTML = fruitList[3].name;
+    // fruit2.innerHTML = fruitList[7].name
+    // fruit3.innerHTML = fruitList[35].name;
+    fruitList.forEach((fruit)=> {
+        document.querySelector("#fruit1").innerHTML +=`
+        <option value = "${fruit.name}">${fruit.name}</option>`
+        document.querySelector("#fruit2").innerHTML +=`
+        <option value = "${fruit.name}">${fruit.name}</option>`
+        document.querySelector("#fruit3").innerHTML +=`
+        <option value = "${fruit.name}">${fruit.name}</option>`
+    })
+    
 }
 
 requestFruits(fruitsUrl);
