@@ -11,6 +11,10 @@
     gap: 100px;
 }
 
+.navigation li a {
+    font-size: 20pt;
+}
+
 
 /* HOME GRID */
 

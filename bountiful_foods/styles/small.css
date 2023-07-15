@@ -46,7 +46,9 @@ p {
     margin: 10px;
 }
 #forecast_section > div {
-    box-shadow: 2px 2px 2px #b0955b;
+    /* box-shadow: 2px 2px 2px #b0955b; */
+    border-bottom: 2px solid #b0955b;
+    border-right: 2px solid #b0955b;
     border-radius: 15px;
     padding-top: 20px;
     margin: 5px;
@@ -95,7 +97,7 @@ h2 {
     text-decoration: none;
     color: white;
     font-family: "Fredoka";
-    font-size: 20pt;
+    font-size: 15pt;
     transition: 0.1s;
 }
 .navigation li a:hover {
