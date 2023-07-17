@@ -192,6 +192,11 @@ h2 {
     background-color: rgb(255, 255, 255, 0.5)!important;
     transition: 0.3s;
 }
+#makedrinkcard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 #makedrinkcard:hover {
     background-color: #ed217c!important;
     transition: 0.3s;
@@ -202,12 +207,12 @@ h2 {
     font-family: "Fredoka";
     padding: 20px;
     font-size: 25pt;
-    margin-top: 100px;
 }
 
 #saveddrinks {
-    grid-row: 3/4;
-    grid-column: 3/5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #ed217c;
     border: 10px solid white;
 }

@@ -1,11 +1,12 @@
 @media screen and (min-width: 800px) { 
 
     #home_grid {
+        display: grid;
         grid-template-rows: repeat(auto);
         grid-template-columns: 1fr 1fr;
     }
 
-    /* #carlsblurb {
+    #carlsblurb {
         grid-column: 1/2;
     }
     #carlsweather {
@@ -16,7 +17,7 @@
     }
     #calltoaction {
         grid-column: 2/3;
-    } */
+    }
 
     /* #fresh_grid {
         display: block;
