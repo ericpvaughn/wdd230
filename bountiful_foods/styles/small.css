@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url(/wdd230/bountiful_foods/images/strawberry2.webp);
+    background-image: url(/wdd230/bountiful_foods/images/strawberry3.webp);
     background-color: darkred;
 }
 
@@ -47,8 +47,9 @@ p {
 }
 #forecast_section > div {
     /* box-shadow: 2px 2px 2px #b0955b; */
-    border-bottom: 2px solid #b0955b;
-    border-right: 2px solid #b0955b;
+    /* border-bottom: 4px solid #f3d855;
+    border-right: 3px solid #f3d855; */
+    background-color: #f3d855;
     border-radius: 15px;
     padding-top: 20px;
     margin: 5px;
@@ -66,12 +67,8 @@ p {
     font-family: "Poppins";
     font-size: 0.3em;
 }
-
-
-hr {
-    margin-right: 20px;
-    margin-left: 20px;
-    color: white;
+#temp, #temp2 {
+    color: #2d3047!important;
 }
 
 h2 {
@@ -111,6 +108,7 @@ h2 {
 
 #home_grid {
     display: block;
+    height: auto;
     margin: 20px;
 }
 
@@ -120,7 +118,7 @@ h2 {
     margin: 10px;
     text-align: center;
     padding-bottom: 10px;
-    padding: 20px;
+    padding: 12px;
 }
 
 #home_grid > div > h2 {
@@ -203,7 +201,7 @@ h2 {
     color: white;
     font-family: "Fredoka";
     padding: 20px;
-    font-size: 30pt;
+    font-size: 25pt;
     margin-top: 100px;
 }
 
@@ -256,6 +254,10 @@ h2 {
     border-radius: 15px;
     padding: 20px;
     margin: 10px;
+}
+#ordersummarybox h2 {
+    background-color: #136d63;
+    border-radius: 15px;
 }
 .drink-order-summary p {
     margin: 0;
