@@ -28,62 +28,42 @@
 </header>
 
 <main id="fresh_grid">
-
-    <div class="mix-form">
-        
-
-        <form>
-            <h2>Make your own Drink with delicious organic fruits!</h2>
-            <label for="firstName">First Name</label><br>
-            <input type="text" id="firstName" name='user_name' required><br><br>
     
-            <label for="eMail">
-                E-mail <br>
-                <input type="email" name="user_email" id="eMail" placeholder="example@mail.com" required><br>
-            </label><br><br>
+    <h2 id="freshtitle">Make your own Drink with delicious, organic fruits!</h2>
+    <section class = "place-holder-red form-grid">
     
-            <label for="phoneNumber">
-                Phone Number <br>
-                <input type="tel" name="phone" id="phoneNumber" required><br>
-            </label><br><br>
-
-            <div class="form-grid">
-                <div class="selection">
-                    <h3>Select 3 fruits</h3>
-                    <div class="fruit1">
-                        <label for="fruit1"></label>
-                        <select id="fruit1" name="fruit1"></select>
-                    </div>
-                   
-                    <div class="fruit2">
-                        <label for="fruit2"></label>
-                        <select id="fruit2" name="fruit2"></select>
-                    </div>
-                   
-                    <div class="fruit3">
-                        <label for="fruit3"></label>
-                        <select id="fruit3" name="fruit3"></select>
-                    </div>
-                    
-                </div>
-                
-                <div class="submission-area">
-                    <textarea name="instructions" id="instruct" cols="30" rows="5">Special instructions...</textarea><br>
-    
-                
-                </div>
-            </div>
-
-            
-            
+        <form id="drinkForm">
+          <label for="firstName">First Name</label>
+          <input type="text" id="firstName" required><br><br>
+      
+          <label for="email">Email</label>
+          <input type="email" id="email" required><br><br>
+      
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" required><br><br>
+      
+          <label for="fruit1">Fruit 1</label>
+          <select id="fruit1"></select><br><br>
+      
+          <label for="fruit2">Fruit 2</label>
+          <select id="fruit2"></select><br><br>
+      
+          <label for="fruit3">Fruit 3</label>
+          <select id="fruit3"></select><br><br>
+      
+          <label for="instructions">Special Instructions</label><br>
+          <textarea id="instructions" rows="4" cols="50" placeholder="Make it with love!"></textarea><br><br>
+      
+          <input type="button" id="drink-card-submit" value="Submit A Drink!">
         </form>
-        <button id="submit-mix">Submit Your Drink!</button>
-       
-
-    </div>
-    <div class="feedback">
-        <p>First Name: <span id="orderName"></span></p>
-    </div>
+        </section>
+        
+        <section id="ordersummarybox">
+        <h2>Drink Order Summary</h2>
+        <div class = "drink-order-summary place-holder-orange">
+          <div id="output"></div>
+        </div>
+        </section>
 
 </main>
 
@@ -106,8 +86,7 @@
 </footer>
 <!--SCRIPTS-->
     <script src="scripts/time_stamp.js"></script>
-    <script src="scripts/fruits.js"></script>
-    <script src="scripts/urlstorage.js"></script>
+    <script src="scripts/drinkorder.js"></script>
 </body>
 
 </html>
