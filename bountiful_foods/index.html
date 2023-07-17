@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="styles/large.css">
 </head>
 <!--BODY SECTION-->
-<body src="images/strawberry.jpeg">
+<body>
 <header>
     <h1 id="title">Bountiful Foods</h1>
     <nav>
@@ -32,38 +32,37 @@
 
 <div id="carlsblurb" class="toprow">
     <h2>Carlsbad Info</h2>
-    <hr>
-    <p class="cardpara">Welcome to Sunny Carlsbad, California! Here is where you'll find one of our many food trucks, which provide locally-grown organic fruits that can be mixed into yummy drinks.<br><br> Our Mission is to provide these locally-grown fruits and veggies to companies and community alike, giving a healthier option for your table. Want to find us? Check it out below!<br><br> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106928.71890309853!2d-117.37037519781636!3d33.12163609602479!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc73453f3bee59%3A0xa4cb5592fcf65d2f!2sCarlsbad%2C%20CA!5e0!3m2!1sen!2sus!4v1689177317554!5m2!1sen!2sus" width="200" height="150" style="border: 10px solid white;" allowfullscreen="no" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+    <p class="cardpara">Welcome to Sunny Carlsbad, California! Here is where you'll find one of our many food trucks, which provide locally-grown organic fruits that can be mixed into yummy drinks.<br><br> Our Mission is to provide these locally-grown fruits and veggies to companies and community alike, giving a healthier option for your table. Want to find us? Check it out below!<br><br> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106928.71890309853!2d-117.37037519781636!3d33.12163609602479!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc73453f3bee59%3A0xa4cb5592fcf65d2f!2sCarlsbad%2C%20CA!5e0!3m2!1sen!2sus!4v1689177317554!5m2!1sen!2sus" width="200" height="150" style="border: 10px solid white;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
 </div>
 
 <!--WEATHER CARD-->
 <div id="carlsweather" class="toprow">
-    <h2>Today's Weather</h2>
-    <hr>
-    <img id="weather-icon" src="" alt="">
+    <h2 id="todaysweather">Today's Weather</h2>
+    <img id="weather-icon" src="images/placeholder.png" alt="weather icon">
     <h2><span id="temp"></span>&deg;F</h2>
     <span id="w-description"></span>
     <p class="weatherbody">Humidity: <span id="humidity"></span>%</p>
     
+
     <!--FORECAST SECTION-->
     <div id="forecast_section">
     <div class="fore1">
         <h2 class="foretitle">Tomorrow</h2>
-        <img id="fore-icon1" src="" alt="">
+        <img id="fore-icon1" src="images/placeholder.png" alt="weather icon">
         <h2><span id="fore-temp1"></span>&deg;F</h2>
         <span id="fore-description1"></span>
         <p class="weatherbody">Humidity: <span id="fore-humidity1"></span>%</p>
     </div>
     <div class="fore2">
         <h2 class="foretitle">2 Days from Now</h2>
-        <img id="fore-icon2" src="" alt="">
+        <img id="fore-icon2" src="images/placeholder.png" alt="weather icon">
         <h2><span id="fore-temp2"></span>&deg;F</h2>
         <span id="fore-description2"></span>
         <p class="weatherbody">Humidity: <span id="fore-humidity2"></span>%</p>
     </div>
     <div class="fore3">
         <h2 class="foretitle">3 Days from Now</h2>
-        <img id="fore-icon3" src="" alt="">
+        <img id="fore-icon3" src="images/placeholder.png" alt="weather icon">
         <h2><span id="fore-temp3"></span>&deg;F</h2>
         <span id="fore-description3"></span>
         <p class="weatherbody">Humidity: <span id="fore-humidity3"></span>%</p>
@@ -76,16 +75,17 @@
 
 
 <div id="otherlocations" class="toprow">
-    <h2>More Locations</h2>
-    <hr>
-    <p class="cardpara"></p>
+    <h2>Our Farm Locations</h2>
+    <img src="images/california1.png" alt="california map" id="californiamap">
 </div>
+
 <div id="calltoaction" class="toprow">
     <h2>Go Make a Drink!</h2>
-    <hr>
     <p class="cardpara">Our website allows you to create your own menu right here right now via our Fresh! Page. <br><br>Click the "Make A Drink!" button down below to select your fruits and special instructions to create your perfect sip of paradise!</p>
     <img src="images/drinkicon.png" id="drink-icon" alt="Drink Icon">
 </div>
+
+
 <div id="makedrinkcard" class="bottomrow">
     <a href="freshpage.html" id="makedrinkbutton">Make A Drink!</a>
 </div>
@@ -114,11 +114,8 @@
         <p class="personalinfo"> &copy; <span id="year"></span> - Eric Vaughn - WDD@230 Chamber of Commerce Project</p>
         <p> Last Updated: <span id="lastUpdate"></span></p>
     </div>
-
-    
-    
-
 </footer>
+
 <!--SCRIPTS-->
     <script src="scripts/time_stamp.js"></script>
     <script src="scripts/forecast.js"></script>
