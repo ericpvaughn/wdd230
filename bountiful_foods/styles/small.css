@@ -5,8 +5,9 @@
 }
 
 body {
-    background-image: url(/wdd230/bountiful_foods/images/strawberry3.webp);
+    background-image: url(/wdd230/bountiful_foods/images/strawback.webp);
     background-color: darkred;
+    /*background-repeat: "repeat";*/
 }
 
 p {
@@ -289,10 +290,47 @@ h2 {
     border-radius: 15px;
     padding: 5px;
 }
+#aboutus_grid p {
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+    font-size: 1.1em;
+    text-align: left;
+}
+#whereimg {
+    width: 150px;
+    margin: 20px;
+}
+#locationgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#left_list, #right_list {
+    background-color: #cf4910;
+    border-radius: 15px;
+    margin: 10px;
+
+}
+#left_list li, #right_list li{
+    list-style: none;
+    font-family: "Fredoka";
+    padding: 10px;
+}
+#left_list {
+    grid-column: 1/2;
+}
+#right_list {
+    grid-column: 2/3;
+}
+
 #aboutusblurb {
     background-color: #fffd82;
 }
 #aboutusblurb h2 {
+    color: #2d3047;
+    background-color: #f3d855;
+}
+#aboutusblurb p {
     color: #2d3047;
     background-color: #f3d855;
 }
@@ -307,6 +345,23 @@ h2 {
 }
 #jointeam h2 {
     background-color: #136d63;
+}
+#jointeam p {
+    background-color: #136d63;
+}
+#contactlist {
+    list-style: none;
+    font-family: "Fredoka";
+}
+#contactlist li {
+    padding: 5px;
+    font-size: 1.3em;
+}
+
+#fruiticon {
+    width: 150px;
+    margin: 20px;
+    margin-top: 30px;
 }
 
 footer {

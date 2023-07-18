@@ -19,7 +19,18 @@
         grid-column: 2/3;
     }
 
-    /* #fresh_grid {
-        display: block;
-    } */
+    #aboutus_grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+    }
+    #aboutusblurb {
+        grid-column: 1/2;
+    }
+    #wheretofind {
+        grid-column: 2/3;
+    }
+    #jointeam {
+        grid-column: 1/3;
+    }
 }
