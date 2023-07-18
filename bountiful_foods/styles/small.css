@@ -36,6 +36,8 @@ p {
 }
 .moreinfo {
     color: #2d3047;
+    font-size: 1.1em;
+    padding: 10px;
 }
 
 /* Forecast Section */
@@ -46,12 +48,9 @@ p {
 #forecast_section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: 10px;
+    margin: 0;
 }
 #forecast_section > div {
-    /* box-shadow: 2px 2px 2px #b0955b; */
-    /* border-bottom: 4px solid #f3d855;
-    border-right: 3px solid #f3d855; */
     background-color: #f3d855;
     border-radius: 15px;
     padding-top: 20px;
