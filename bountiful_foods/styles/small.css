@@ -18,6 +18,7 @@ p {
     font-size: 0.9em;
 }
 
+
 /* Weather */
 .weatherbody {
     color: #2d3047!important;
@@ -245,7 +246,7 @@ h2 {
     border-radius: 5px;
     background-color: white;
     border: 5px solid white;
-    color: #ed217c;
+    color: #2d3047;
     font-family: "Fredoka";
 }
 #instructions {
@@ -254,6 +255,9 @@ h2 {
     max-width: 400px;
     border-radius: 5px;
 }
+#infotitle {
+    margin-bottom: 20px;
+}
 #ordersummarybox {
     grid-column: 2/3;
     border: 5px solid white;
@@ -261,7 +265,7 @@ h2 {
     padding: 20px;
     margin: 10px;
 }
-#ordersummarybox h2 {
+#drinkordertitle {
     background-color: #136d63;
     border-radius: 15px;
 }
@@ -272,6 +276,13 @@ h2 {
 }
 .drink-order-summary h2 {
     padding-bottom: 10px;
+}
+
+.curvetexttop {
+    border-radius: 15px 15px 0px 0px;
+}
+.curvetextbot {
+    border-radius: 0px 0px 15px 15px;
 }
 
 /* About Us Page */
@@ -295,7 +306,6 @@ h2 {
     padding: 20px;
     margin: 20px;
     font-size: 1.1em;
-    text-align: left;
 }
 #whereimg {
     width: 150px;
