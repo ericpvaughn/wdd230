@@ -80,8 +80,6 @@
 #saveddrinks {
     grid-row: 3/4;
     grid-column: 3/5;
-    background-color: #ed217c;
-    border: 10px solid white;
 }
 
 /* Fresh Page */
@@ -89,11 +87,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 50px 1fr;
-    text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
-    background-color: #1b998b;
-    color: white;
     padding: 20px;
     margin-right: 50px;
     margin-left: 50px;
@@ -104,10 +99,7 @@
 }
 
 .form-grid {
-    font-family: "Poppins";
-    margin: 20px;
     grid-column: 1/2;
-
 }
 #instructions {
     padding: 5px;
