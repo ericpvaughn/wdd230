@@ -167,7 +167,7 @@ h2 {
     border-radius: 15px;
 }
 #californiamap {
-    width: 200px;
+    width: 100px;
     margin: 20px;
     margin-top: 50px;
 }
@@ -332,6 +332,11 @@ h2 {
 }
 #right_list {
     grid-column: 2/3;
+}
+#aboutmap {
+    width: 300px;
+    height: 300px;
+    margin: 20px;
 }
 
 #aboutusblurb {
