@@ -5,10 +5,11 @@
 }
 
 body {
-    background-image: url(/wdd230/bountiful_foods/images/strawback.webp);
+    background-image: url(/wdd230/bountiful_foods/images/strawtiny.png);
     background-color: darkred;
-    /*background-repeat: "repeat";*/
+    background-size: 100px;
 }
+
 
 p {
     font-family: "Poppins";
